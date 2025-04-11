@@ -11,4 +11,5 @@ const Peli = () => {
 }
 
 
+
 export default Peli
