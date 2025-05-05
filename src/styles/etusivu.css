@@ -4,7 +4,7 @@ body {
   /* Uppe mörkt, nere ljusare*/
   background-image: linear-gradient(
     to bottom,
-    #0A1F44 0%,
+    #edf1f9 0%,
     #1A3B6A 100%
   );
   
