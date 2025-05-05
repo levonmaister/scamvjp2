@@ -4,6 +4,7 @@ import { useState } from 'react'
 import React from 'react'
 import Navbar from '../components/Navbar'
 import MyDropzone from './Dropzone'
+import '../styles/ilmoitus.css';
 
 
 
@@ -15,16 +16,58 @@ const IlmoitusSivu = () => {
 
 
 
-    
+    // a form where people who want to report a scam can fill in their information
+    // name
+    // email
+    // phone number
+    // description of the scam
+    // file upload
 
     return(
         <div>
             <Navbar />
             <h1>Ilmoitus</h1>
+
+<div className='form-div'>
+            <form>
+
+            <div className='personal-information-container'>
+                <label>
+                    Nimi:
+                    <input type="text" name="name" />
+                </label>
+                <br />
+                <label>
+                    Sähköposti:
+                    <input type="email" name="email" />
+                </label>
+                <br />
+                <label>
+                    Puhelinnumero:
+                    <input type="tel" name="phone" />
+                </label>
+                <br />
+                <label>
+                    Huijauskuvaus:
+                    <textarea name="description" />
+                </label>
+                <br />
+               
+
+
+                </div>
+
+                <br />
+                <br />
+               
             
             
             <MyDropzone />
-       
+
+            <button type="submit">Lähetä</button>
+            </form>
+
+            </div>
         </div>
     )
 

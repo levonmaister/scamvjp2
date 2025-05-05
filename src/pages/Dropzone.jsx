@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import React from 'react';
-import dropIcon from './cloud-computing.png';
-import './dropbox.css';
+import dropIcon from '../pictures/cloud-computing.png';
+import '../styles/dropbox.css';
 
 const MyDropzone = () => {
   const handleFileUpload = (event) => {
