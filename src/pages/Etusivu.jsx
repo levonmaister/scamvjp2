@@ -13,7 +13,6 @@ const Etusivu = () => {
     if(peli){
         return(
             <div>
-                <Navbar />
                 <Peli />
                 <button onClick={()=>setPeli(false)}>Lopeta peli</button>
             </div>

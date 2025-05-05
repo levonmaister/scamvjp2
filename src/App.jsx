@@ -9,13 +9,14 @@ function App() {
 
 
   return (
-    <div>
-
-<Routes>
-  <Route path="/" element={<Etusivu />} />
-  <Route path="/ilmoitus" element={<IlmoitusSivu />} />
-</Routes>
-</div>
+    <div className= "App">
+      
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Etusivu />} />
+        <Route path="/ilmoitus" element={<IlmoitusSivu />} />
+      </Routes>
+    </div>
   )
 }
 
