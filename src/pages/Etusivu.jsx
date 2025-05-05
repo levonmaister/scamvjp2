@@ -15,9 +15,9 @@ const Etusivu = () => {
                 <ViestiPeli />
                 <button onClick={()=>setPeli(false)}>Lopeta peli</button>
             </div>
-        )
+        );
     }
-    else{
+    else {
         return(
       
             <div>
@@ -30,11 +30,11 @@ const Etusivu = () => {
                 <button onClick={()=>setPeli(true)}>Pelaa peli</button>
 
             </div>
-        )
+        );
     }
 
-}
+};
 
 
 
-export default Etusivu
+export default Etusivu;
