@@ -21,7 +21,7 @@ export default function ViestiPeli() {
   const handleChoice = (option) => {
     if (locked) return;
     setLocked(true);
-    setFeedback(option.correct ? "Correct!" : "Wrong!");
+    setFeedback(option.correct ? "Oikein!" : "Väärin!");
 
     if (option.correct) {
       setScore((prevScore) => prevScore + 1)
@@ -64,7 +64,7 @@ export default function ViestiPeli() {
         <div className="sender">{current.sender}</div>
         <div className="bubble left">{current.message}</div>
         <div className="fBack">
-        {feedback && <div className={`feedback ${feedback === "Correct!" ? "correct" : "wrong"}`}>{feedback}</div>}
+        {feedback && <div className={`feedback ${feedback === "Oikein!" ? "correct" : "wrong"}`}>{feedback}</div>}
         </div>
         <div className="keyboard"></div>
         <div className="options">
