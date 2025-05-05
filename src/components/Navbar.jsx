@@ -8,7 +8,7 @@ const Navbar = () => {
             <div className="nav-element"><Link to="/">Etusivu</Link></div>
             <div className="nav-element"><Link to="/ilmoitus">Ilmoitus</Link> </div>
             <div className="nav-element">Hujausviestin tunnistuspeli</div> 
-            <div className="nav-element">Näin tunisat hujausviestin</div> 
+            <div className="nav-element">Näin tunnistat hujausviestin</div> 
             <div className="nav-element">Tarinat</div>   
         </div>
     )
