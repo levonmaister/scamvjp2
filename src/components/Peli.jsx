@@ -1,6 +1,7 @@
 
 
 import React from 'react';
+import { useState } from 'react';
 import { script } from '../pages/peliScript';
 import "../stylefolder/peli.css";
 
