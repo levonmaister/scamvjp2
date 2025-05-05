@@ -4,6 +4,7 @@ import { useState } from 'react'
 import React from 'react'
 import Peli from '../components/Peli.jsx'
 import Navbar from '../components/Navbar.jsx'
+import '../styles/etusivu.css';
 
 const Etusivu = () => {
 
