@@ -13,6 +13,7 @@ const Etusivu = () => {
     if(peli){
         return(
             <div>
+                
                 <Peli />
                 <button onClick={()=>setPeli(false)}>Lopeta peli</button>
             </div>
@@ -22,7 +23,7 @@ const Etusivu = () => {
     return(
       
         <div>
-            <Navbar />
+            
             <h1>SAITKO TEKSTIVIESTIN?</h1>
             <h1>TUNNISTATKO HUJAUKSEN?</h1>
             <div>Tektsiviestihujaukset käyvät yhä ovelimmiksi.</div>

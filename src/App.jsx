@@ -10,8 +10,8 @@ function App() {
 
   return (
     <div className= "App">
-      
       <Navbar />
+      
       <Routes>
         <Route path="/" element={<Etusivu />} />
         <Route path="/ilmoitus" element={<IlmoitusSivu />} />
