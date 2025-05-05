@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import React from 'react'
 import Navbar from '../components/Navbar'
-import MyDropzone from './Dropzone'
+import MyDropzone from '../components/Dropzone'
 import '../styles/ilmoitus.css';
 
 
