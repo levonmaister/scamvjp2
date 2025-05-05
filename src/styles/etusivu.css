@@ -4,8 +4,8 @@ body {
   /* Uppe mörkt, nere ljusare*/
   background-image: linear-gradient(
     to bottom,
-    #0A1F44 0%,
-    #1A3B6A 100%
+    #070fa1 0%,
+    #1c3cda 100%
   );
   
   min-height: 100vh;
