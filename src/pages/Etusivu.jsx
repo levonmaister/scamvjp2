@@ -2,8 +2,7 @@
 
 import { useState } from 'react'
 import React from 'react'
-import Peli from '../components/Peli.jsx'
-import Navbar from '../components/Navbar.jsx'
+import ViestiPeli from '../components/Peli.jsx'
 import '../styles/etusivu.css';
 
 const Etusivu = () => {
@@ -13,26 +12,25 @@ const Etusivu = () => {
     if(peli){
         return(
             <div>
-                
-                <Peli />
+                <ViestiPeli />
                 <button onClick={()=>setPeli(false)}>Lopeta peli</button>
             </div>
         )
     }
     else{
-    return(
+        return(
       
-        <div>
+            <div>
             
-            <h1>SAITKO TEKSTIVIESTIN?</h1>
-            <h1>TUNNISTATKO HUJAUKSEN?</h1>
-            <div>Tektsiviestihujaukset käyvät yhä ovelimmiksi.</div>
-            <div>Opi suojaamaan itsesi - ja testaa taitosi</div>
+                <h1>SAITKO TEKSTIVIESTIN?</h1>
+                <h1>TUNNISTATKO HUJAUKSEN?</h1>
+                <div>Tektsiviestihujaukset käyvät yhä ovelimmiksi.</div>
+                <div>Opi suojaamaan itsesi - ja testaa taitosi</div>
 
-            <button onClick={()=>setPeli(true)}>Pelaa peli</button>
+                <button onClick={()=>setPeli(true)}>Pelaa peli</button>
 
-        </div>
-    )
+            </div>
+        )
     }
 
 }
