@@ -3,9 +3,17 @@
 import { useState } from 'react'
 import React from 'react'
 import Navbar from '../components/Navbar'
+import MyDropzone from './Dropzone'
+
+
+
+
+
 
 
 const IlmoitusSivu = () => {
+
+
 
     
 
@@ -13,7 +21,10 @@ const IlmoitusSivu = () => {
         <div>
             <Navbar />
             <h1>Ilmoitus</h1>
-            <p>Ilmoita tässä: </p>
+            
+            
+            <MyDropzone />
+       
         </div>
     )
 
