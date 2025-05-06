@@ -27,7 +27,7 @@ const Etusivu = () => {
         );
     } else {
         return(
-            
+            <div>
             <div className="layout">
                 <div className="rubrik">
                     <p>SAITKO TEKSTIVIESTIN? <br/>TUNNISTATKO HUJAUKSEN?</p>
@@ -45,10 +45,15 @@ const Etusivu = () => {
                 
 
                 <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
-                <NumerotValehtelee />
+                
+            </div>
+
+            <div>
+            <NumerotValehtelee />
              
               
-                <HorrorStories />
+             <HorrorStories />
+            </div>
             </div>
         );
     }
