@@ -25,7 +25,6 @@ const IlmoitusSivu = () => {
 
     return(
         <div>
-            <Navbar />
             <h1>Ilmoitus</h1>
 
 <div className='form-div'>
