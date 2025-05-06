@@ -5,6 +5,8 @@ import React from 'react'
 import ViestiPeli from '../components/Peli.jsx'
 import '../styles/etusivu.css';
 import NumerotValehtelee from './NumerotValehtelee.jsx';
+import HorrorStories from './HorroStories.jsx';
+
 
 const Etusivu = () => {
 
@@ -25,7 +27,7 @@ const Etusivu = () => {
         );
     } else {
         return(
-      
+            
             <div className="layout">
                 <div className="rubrik">
                     <p>SAITKO TEKSTIVIESTIN? <br/>TUNNISTATKO HUJAUKSEN?</p>
@@ -40,11 +42,13 @@ const Etusivu = () => {
                     }}
                     className={clicked ? 'clicked-button' : 'default-button'}
                 >Pelaa peli</button>
-
+                
 
                 <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
                 <NumerotValehtelee />
-
+             
+              
+                <HorrorStories />
             </div>
         );
     }
