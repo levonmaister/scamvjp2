@@ -4,6 +4,7 @@ import { useState } from 'react'
 import React from 'react'
 import ViestiPeli from '../components/Peli.jsx'
 import '../styles/etusivu.css';
+import NumerotValehtelee from './NumerotValehtelee.jsx';
 
 const Etusivu = () => {
 
@@ -28,6 +29,10 @@ const Etusivu = () => {
                 <div>Opi suojaamaan itsesi - ja testaa taitosi</div>
 
                 <button onClick={()=>setPeli(true)}>Pelaa peli</button>
+
+
+                <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+                <NumerotValehtelee />
 
             </div>
         );

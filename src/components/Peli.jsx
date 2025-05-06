@@ -16,6 +16,7 @@ export default function ViestiPeli() {
   const [gameOver, setGameOver] = useState(false);
 
   
+  
   const current = script[step];
   
   const handleChoice = (option) => {
