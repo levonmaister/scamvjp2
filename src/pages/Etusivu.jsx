@@ -21,12 +21,13 @@ const Etusivu = () => {
     else {
         return(
       
-            <div>
-            
-                <h1>SAITKO TEKSTIVIESTIN?</h1>
-                <h1>TUNNISTATKO HUJAUKSEN?</h1>
-                <div>Tektsiviestihujaukset käyvät yhä ovelimmiksi.</div>
-                <div>Opi suojaamaan itsesi - ja testaa taitosi</div>
+            <div className="layout">
+                <div className="rubrik">
+                    <p>SAITKO TEKSTIVIESTIN? <br/>TUNNISTATKO HUJAUKSEN?</p>
+                </div>
+                <div className="text">
+                    <p>Tektsiviestihujaukset käyvät yhä ovelimmiksi. <br/>Opi suojaamaan itsesi - ja testaa taitosi</p>
+                </div>
 
                 <button onClick={()=>setPeli(true)}>Pelaa peli</button>
 

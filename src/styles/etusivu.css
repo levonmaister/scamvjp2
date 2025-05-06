@@ -1,13 +1,36 @@
 body {
-  background-color: #0A1F44;
-  
-  /* Uppe mörkt, nere ljusare*/
-  background-image: linear-gradient(
-    to bottom,
-    #edf1f9 0%,
-    #1A3B6A 100%
-  );
-  
+  background-color: white;
   min-height: 100vh;
   margin: 0;
+}
+
+.layout {
+  display: flex;
+  height: 100vh;
+  position: relative;
+  background: linear-gradient(135deg, #f0e9e2 50%, #d17933 50%);
+  overflow: hidden;
+  padding: 2vh;
+  flex-direction: column;
+}
+
+.layout button {
+  width: 30%;
+  height: 6vh;
+  border-radius: 20px;
+  background-color: rgb(11, 31, 126);
+  color: white;
+  font-size: 20px;
+}
+
+.rubrik {
+  text-align: left;
+  font-weight: bold;
+  font-size: 30px;
+  gap: 1%;
+  text-align: left;
+}
+
+.text {
+  font-size: 24px;
 }
