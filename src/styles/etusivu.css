@@ -14,13 +14,25 @@ body {
   flex-direction: column;
 }
 
-.layout button {
+.default-button {
   width: 30%;
   height: 6vh;
   border-radius: 20px;
   background-color: rgb(11, 31, 126);
   color: white;
   font-size: 20px;
+  margin-top: 5%;
+}
+
+.clicked-button {
+  width: 30%;
+  height: 6vh;
+  border-radius: 20px;
+  background-color: rgb(11, 31, 126);
+  color: white;
+  font-size: 20px;
+  margin-top: 5%;
+  margin-left: 5%;
 }
 
 .rubrik {

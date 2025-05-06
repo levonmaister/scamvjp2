@@ -9,16 +9,21 @@ import NumerotValehtelee from './NumerotValehtelee.jsx';
 const Etusivu = () => {
 
     const [peli, setPeli] = useState(false)
+    const [clicked, setClicked] = useState(false)
 
     if(peli){
         return(
             <div>
+                <button onClick={()=> {
+                    setPeli(false); 
+                    setClicked(false);
+                    }}
+                    className={clicked ? 'clicked-button' : 'default-button'}
+                >Lopeta peli </button>
                 <ViestiPeli />
-                <button onClick={()=>setPeli(false)}>Lopeta peli</button>
             </div>
         );
-    }
-    else {
+    } else {
         return(
       
             <div className="layout">
@@ -29,7 +34,12 @@ const Etusivu = () => {
                     <p>Tektsiviestihujaukset käyvät yhä ovelimmiksi. <br/>Opi suojaamaan itsesi - ja testaa taitosi</p>
                 </div>
 
-                <button onClick={()=>setPeli(true)}>Pelaa peli</button>
+                <button onClick={()=>{
+                    setPeli(true);
+                    setClicked(true)
+                    }}
+                    className={clicked ? 'clicked-button' : 'default-button'}
+                >Pelaa peli</button>
 
 
                 <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
