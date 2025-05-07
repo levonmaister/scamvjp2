@@ -1,7 +1,7 @@
 export const script = [
     {
       sender: "DHLx",
-      message: "Tilauksesi vaatii tunnistautuminen pankkitunuksilla, klikkaa linkkia vahvistaksesi tilauksen: www.fakelink.fi",
+      message: "Tilauksesi vaatii tunnistautuminen pankkitunuksilla, klikkaa linkkia vahvistaksesi tilauksen: www.vahtistaatilausx.fi",
       options: [
         { answer: "Huijaus", correct: true }, 
         { answer: "Aito", correct: false }
@@ -9,7 +9,7 @@ export const script = [
     },
     {
       sender: "PostNord", 
-      message: "Lähetyksesi on matkalla! Seuraa lähetystäsi: https//realLink.com ",
+      message: "Lähetyksesi on matkalla! Seuraa lähetystäsi: https://postnord/seuraalahetysta.com ",
       options: [
         { answer: "Huijaus", correct: false }, 
         { answer: "Aito", correct: true }
@@ -26,6 +26,22 @@ export const script = [
     {
       sender: "Aktia", 
       message: "Tervehdys. Sinulla on paljon maksamattomia maksuja. Maksa heti tässä: maksanyt123!.com",
+      options: [
+        { answer: "Huijaus", correct: true }, 
+        { answer: "Aito", correct: false }
+        ],
+    },
+    {
+      sender: "PoSTI", 
+      message: "Hei! Sinulla on lähetys joka odottaa sinua. Maksa postitus tässä: www.postii/maksu.fi",
+      options: [
+        { answer: "Huijaus", correct: true }, 
+        { answer: "Aito", correct: false }
+        ],
+    },
+    {
+      sender: "Klarna", 
+      message: "Maksusi yhtiölle Zalando.fi erääntyy tänään. Maksa lasku nyt: www.klarna/maksU.com",
       options: [
         { answer: "Huijaus", correct: true }, 
         { answer: "Aito", correct: false }
