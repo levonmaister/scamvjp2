@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import React from 'react';
+
 import dropIcon from '../pictures/cloud-computing.png';
+
 import '../styles/dropbox.css';
 
 const MyDropzone = () => {

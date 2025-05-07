@@ -1,13 +1,72 @@
 body {
-  background-color: #0A1F44;
-  
-  /* Uppe mörkt, nere ljusare*/
-  background-image: linear-gradient(
-    to bottom,
-    #070fa1 0%,
-    #1c3cda 100%
-  );
-  
-  min-height: 100vh;
-  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.layout {
+  display: flex;
+  height: 70vh;
+  position: relative;
+  background: linear-gradient(135deg, #f0e9e2 50%, #d17933 50%);
+  overflow: hidden;
+  padding: 2vh;
+  flex-direction: column;
+}
+
+.default-button {
+  width: 30vw;
+  height: 6vh;
+  border-radius: 20px;
+  background-color: rgb(11, 31, 126);
+  color: white;
+  font-size: 20px;
+  margin-top: 5%;
+}
+
+.clicked-button {
+  width: 30vw;
+  height: 6vh;
+  border-radius: 20px;
+  background-color: rgb(11, 31, 126);
+  color: white;
+  font-size: 20px;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.rubrik {
+  text-align: left;
+  font-weight: bold;
+  font-size: 30px;
+  gap: 1%;
+  text-align: left;
+}
+
+.text {
+  font-size: 18px;
+  max-width: 50vw;
+}
+
+@media (min-width: 600px) {
+  .layout {
+    background: linear-gradient(160deg, #f0e9e2 50%, #d17933 50%);
+  }
+
+  .rubrik {
+    font-size: 40px;
+  }
+
+  .text {
+    font-size: 22px;
+    max-width: 70vw;
+  }
+
+  .default-button {
+    width: 20vw;
+    margin-top: 2%;
+  }
+
+  .clicked-button {
+    width: 24vw;
+  }
+
 }
