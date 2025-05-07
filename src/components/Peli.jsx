@@ -59,7 +59,10 @@ export default function ViestiPeli() {
   return (
     <div className="chat-container">
       <h1>Tunnista huijausviestit!</h1>
-      <h3>Näin pelaat: lue viesti, jos epäilet viestin olevan huijaus, paina "Huijaus"-nappia. Paina "Aito"-nappia, jos viesti on mielestäsi luotettava.</h3>
+
+      <div className="infoText">
+        <p>Näin pelaat: lue viesti, jos epäilet viestin olevan huijaus, paina "Huijaus"-nappia. <br />Paina "Aito"-nappia, jos viesti on mielestäsi luotettava.</p>
+      </div>
       
       <div className="chat">
         <div className="sender">{current.sender}</div>
