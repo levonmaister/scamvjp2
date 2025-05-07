@@ -30,7 +30,7 @@ const Etusivu = () => {
             <div>
                 <div className="layout">
                     <div className="rubrik">
-                        <p>SAITKO TEKSTIVIESTIN? <br/>TUNNISTATKO HUJAUKSEN?</p>
+                        <p>SAITKO TEKSTIVIESTIN? <br/>TUNNISTATKO HUIJAUKSEN?</p>
                     </div>
                     <div className="text">
                         <p>Tektsiviestihujaukset käyvät yhä ovelimmiksi. <br/>Opi suojaamaan itsesi - ja testaa taitosi</p>
@@ -44,6 +44,8 @@ const Etusivu = () => {
                     >Pelaa peli</button>
                 
                 </div>
+
+                
 
                 <div className="numerotLayout">
                     <NumerotValehtelee />
