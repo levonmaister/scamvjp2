@@ -1,5 +1,7 @@
 
 
+import "../styles/stories.css"
+
 const HorrorStories = () => {
 
 
@@ -7,7 +9,7 @@ const HorrorStories = () => {
 
         <div className="stories-container">
             <h1>Hujaus esimerkit</h1>
-            
+
             <div className="story1">
                 <p>Moi olen Greta ja nigerian prinssi vei kaikki mun rahat</p>
             </div>

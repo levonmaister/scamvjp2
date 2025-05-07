@@ -1,3 +1,8 @@
+body {
+    background-color: white;
+    margin: 0;
+  }
+
 .numerot-wrapper {
     background: linear-gradient(135deg, #d17933 50%, #f0e9e2 50%);
     padding: 40px;
