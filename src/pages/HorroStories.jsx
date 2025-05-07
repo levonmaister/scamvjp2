@@ -19,10 +19,15 @@ const HorrorStories = () => {
 
             <div className="story1">
 
-                <div className='story1-imageheadline-container'>
-                <h2>Marjatta 71-v. ja Anni 72-v. jäi arvontahujauksen uhreiksi</h2>
-                <img src={story1img} />
+            <h1 className='story1headline'>Marjatta 71-v. ja Anni 72-v. jäi arvontahujauksen uhreiksi</h1>
+
+            <div className='descriptionandstory'>
+
+                <div className='story1-image-container'>
+                
+                <img className='storykuva' src={story1img} />
                 </div>
+
                 <div className='story1-description'>
                     <p>
                     Marjatta ja Anni ovat kotoisin Porvoosta ja ovat olleet ystäviä jo pitkään. <br></br><br></br>
@@ -45,6 +50,9 @@ Lopulta he yhdessä ymmärsivät ikävän totuuden, Marjattan Facebook-tili oli 
 Anni ja Marjatta ilmoittivat asiasta poliisille ja pankille. He neuvoivat Annia vaihtamaan salasanansa ja tekemään niistä turvallisemmat. Pankki huolehti siitä, ettei Annin tililtä katoaisi rahaa siltä varalta, että huijarit olisivat saaneet haltuunsa hänen pankkitietonsa.
                     </p>
                 </div>
+
+                </div>
+
 
             </div>
 

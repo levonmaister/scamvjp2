@@ -27,7 +27,7 @@ body {
     height: auto; /* Use auto to allow height to grow with content */
     width: 400px;
     background-color: #f5f6fa; /* Close match to the light grey/blue background */
-    margin: 20px;
+    margin: 20px; 
     padding: 32px 24px; /* Adjusted for more vertical balance */
     border-radius: 12px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Soft shadow like in the image */
@@ -46,6 +46,24 @@ body {
 
 
 .story1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.storykuva{
+    border-radius: 30px;
+    width: 50vh;
+    height: 30vh;
+}
+
+
+.story1headline{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.descriptionandstory{
     display: flex;
     justify-content: flex-end;
 }
