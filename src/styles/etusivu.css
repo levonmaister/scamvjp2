@@ -89,7 +89,7 @@ html {
   .clicked-button {
     width: 24vw;
   }
-  .checklist-title {
+  #checklist-title {
     text-align: center;
   }
 

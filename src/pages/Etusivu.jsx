@@ -52,7 +52,7 @@ const Etusivu = () => {
                 </div>
 
                 <div className="checklistlayout">
-                    <h2 className="checklist-title">Älä mene lankaan - näin tunnistat huijausviestin!</h2>
+                    <h2 id="checklist-title">Älä mene lankaan - näin tunnistat huijausviestin!</h2>
                     <Checklist/>
                 </div>
 
