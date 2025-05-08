@@ -4,6 +4,8 @@ import { useState } from 'react'
 import React from 'react'
 import ViestiPeli from '../components/Peli.jsx'
 import '../styles/etusivu.css';
+import Checklist from './Checklist.jsx';
+import "../styles/Checklist.css";
 import NumerotValehtelee from './NumerotValehtelee.jsx';
 import HorrorStories from './HorroStories.jsx';
 
@@ -47,6 +49,7 @@ const Etusivu = () => {
                 <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
                 
             </div>
+            <Checklist /> {/*Ska denna vara här*/}
 
             <div>
             <NumerotValehtelee />
