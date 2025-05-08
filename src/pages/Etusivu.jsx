@@ -7,6 +7,7 @@ import '../styles/etusivu.css';
 import NumerotValehtelee from './NumerotValehtelee.jsx';
 import HorrorStories from './HorroStories.jsx';
 import handbild from "../pictures/handbild.png"
+import Checklist from "./Checklist.jsx"
 
 
 const Etusivu = () => {
@@ -43,7 +44,15 @@ const Etusivu = () => {
                         }}
                         className={clicked ? 'clicked-button' : 'default-button'}
                     >Pelaa peli</button>
+
+                    <div className="handbild-container">
+                        <img src={handbild} alt="puhelinkadessa" />
+                    </div>
                 
+                </div>
+
+                <div className="checklistlayout">
+                    <Checklist/>
                 </div>
 
                 <div className="numerotLayout">

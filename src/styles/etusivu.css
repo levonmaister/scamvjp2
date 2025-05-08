@@ -54,6 +54,17 @@ html {
   margin-left: 5%;
 }
 
+.handbild-container {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  overflow: hidden;
+}
+
+.handbild-container img {
+  width: 245px;
+}
+
 @media (min-width: 600px) {
   .layout {
     background: linear-gradient(160deg, #f0e9e2 50%, #E98A45 50%);
@@ -79,4 +90,10 @@ html {
     width: 24vw;
   }
 
+  .handbild-container img {
+    width: 270px;
+  }
+
 }
+
+
