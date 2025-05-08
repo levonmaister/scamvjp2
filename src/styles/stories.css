@@ -67,3 +67,8 @@ body {
     display: flex;
     justify-content: flex-end;
 }
+
+
+.story2 {
+    align-self: flex-start;
+}
