@@ -75,3 +75,9 @@ html {
   }
 
 }
+.checklist-title {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  font-weight: bold;
+}

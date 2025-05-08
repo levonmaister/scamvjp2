@@ -48,6 +48,7 @@ const Etusivu = () => {
                 
                 </div>
 
+                <h2 className="checklist-title">Saitko tekstiviestin? Näin tunnistat huijauksen!</h2>
                 <Checklist /> {/*Ska denna vara här*/}
 
 
