@@ -69,6 +69,7 @@ const Checklist = () => {
         </div>
       ))}
     </div>
+
   );
 };
 

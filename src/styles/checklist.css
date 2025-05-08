@@ -5,13 +5,11 @@ body {
 }
 
 
-
 .checklist-wrapper {
     margin: 4vh 2vw;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-  
   }
   
   .checklist-item {
