@@ -44,6 +44,10 @@ const Etusivu = () => {
                         }}
                         className={clicked ? 'clicked-button' : 'default-button'}
                     >Pelaa peli</button>
+
+                    <div className="handbild-container">
+                        <img src={handbild} alt="puhelinkadessa" />
+                    </div>
                 
                 </div>
 
