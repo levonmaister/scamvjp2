@@ -62,7 +62,7 @@ html {
 }
 
 .handbild-container img {
-  width: 245px;
+  width: 345px;
 }
 
 @media (min-width: 600px) {
@@ -91,5 +91,15 @@ html {
   }
 
 }
-
+@media (max-width: 400px) {
+.handbild-container img {
+  width: 160px;
+}
+.default-button{
+  width: 50%;
+}
+.text{
+  max-width: 80%;
+}
+}
 
