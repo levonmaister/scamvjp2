@@ -3,6 +3,10 @@ body {
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .layout {
   display: flex;
   height: 70vh;

@@ -12,14 +12,14 @@ const HorrorStories = () => {
     return(
 
         <div className="stories-container">
-            <h1>Hujaus esimerkit</h1>
+
 <br></br>
 <br></br>
 <br></br> <br></br><br></br> <br></br>
 
             <div className="story1">
 
-            <h1 className='story1headline'>Marjatta 71-v. ja Anni 72-v. jäi arvontahujauksen uhreiksi</h1>
+            <h1 id="tarinat" className='story1headline'>Marjatta 71-v. ja Anni 72-v. jäi arvontahujauksen uhreiksi</h1>
 
             <div className='descriptionandstory'>
 

@@ -35,9 +35,9 @@ const Navbar = () => {
   
           <div className={navLinksClass}>
             <Link to="/" onClick={closeMenu}>Etusivu</Link>
-            <div onClick={closeMenu}>Hujausviestin tunnistuspeli</div>
-            <div onClick={closeMenu}>Näin tunnistat hujausviestin</div>
-            <div onClick={closeMenu}>Tarinat</div>
+            <Link to="/peli" onClick={closeMenu}>Hujausviestin tunnistuspeli</Link>
+            <Link to="/#tunnista-huijaus" onClick={closeMenu}>Näin tunnistat hujausviestin</Link>
+            <a href="#tarinat" onClick={closeMenu}>Tarinat</a>
           </div>
         </div>
       </div>
