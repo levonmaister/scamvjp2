@@ -26,6 +26,11 @@ html {
   margin-top: 5%;
   font-family: "Anton", sans-serif;
   align-self: center;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+.default-button:hover {
+  background-color: rgb(22, 44, 145);
+  transform: scale(1.05);
 }
 
 .clicked-button {

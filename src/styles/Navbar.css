@@ -1,3 +1,4 @@
+
 .nav-container {
     display: flex;
     justify-content: space-between;
@@ -34,13 +35,20 @@
   transform-origin: center;
 }
 .burger:hover span {
-    background-color: #555;
+    background-color: rgb(11, 31, 126);
     transform: scaleX(1.2);
 }
   
 .nav-links {
     display: flex;
     gap: 1rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05); 
+}
+.nav-links a:last-child {
+    margin-bottom: 1rem;
 }
 
 a,
