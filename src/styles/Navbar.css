@@ -14,17 +14,28 @@
 }
   
 .burger {
-    display: none;
-    flex-direction: column;
-    gap: 5px;
-    cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 24px;
+  width: 30px;
+  cursor: pointer;
+  position: relative;
 }
   
 .burger span {
-    width: 25px;
-    height: 3px;
-    background-color: black;
-    transition: all 0.3s ease;
+  position: absolute;
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  transition: all 0.3s ease;
+  border-radius: 2px;
+  transform-origin: center;
+}
+.burger:hover span {
+    background-color: #555;
+    transform: scaleX(1.2);
 }
   
 .nav-links {
@@ -58,10 +69,50 @@ a:visited {
     pointer-events: none;
     z-index: 10;
 }
+.nav-links a {
+  transition: color 0.3 ease, transform 0.3s ease;
+  cursor: pointer;
+}
+.nav-links a:hover {
+  color: rgb(11, 31, 126);
+  transform: scale(1.02);
+}
+.logo a {
+  display: inline-block;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+.logo a:hover {
+  color: rgb(11, 31, 126);
+  transform: scale(1.02);
+}
   
 .nav-links.active {
     transform: translateY(0);
     opacity: 1;
     pointer-events: auto;
+}
+
+/*burger ikonen formar ett kryss då man klickar på den*/
+.burger span:nth-child(1) {
+  top: 0;
+}
+.burger span:nth-child(2) {
+  top: 10px;
+}
+.burger span:nth-child(3) {
+  top: 20px;
+}
+.burger.open span:nth-child(1) {
+  transform: rotate(45deg);
+  top: 10px;
+}
+  
+.burger.open span:nth-child(2) {
+  opacity: 0;
+}
+  
+.burger.open span:nth-child(3) {
+  transform: rotate(-45deg);
+  top: 10px;
 }
 }

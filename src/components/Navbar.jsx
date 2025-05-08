@@ -43,7 +43,7 @@ const Navbar = () => {
                     <Link to="/" onClick={closeMenu}>Etusivu</Link>
                   )}
             <Link to="/peli" onClick={closeMenu}>Hujausviestin tunnistuspeli</Link>
-            <a href="#tunnista-huijaus" onClick={closeMenu}>Näin tunnistat hujausviestin</a>
+            <a href="#checklist-title" onClick={closeMenu}>Näin tunnistat hujausviestin</a>
             <a href="#tarinat" onClick={closeMenu}>Tarinat</a>
 
           </div>
