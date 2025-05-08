@@ -14,7 +14,7 @@ const Checklist = () => {
 
   const items = [
     {
-      title: "Tarkista lähettäjän nimi, linkki ja tekstin kieli",
+      title: "1. Tarkista lähettäjän nimi, linkki ja tekstin kieli",
       description: ["Onko lähettäjän nimi oudosti kirjoitettu tai jopa tuntematon?",
                    "Näkyykö linkissä väärin kirjoitettu tai epäilyttävä osoite?",
                    "Huijausviestit paljastuvat usein kirjoitusvirheistä ja epäjohdonmukaisuuksista." 
@@ -22,29 +22,30 @@ const Checklist = () => {
 
     },
     {
-      title: "Älä klikkaa epäilyttäviä linkkejä",
-      description: "Vältä linkkejä, jos et ole varma viestin luotettavuudesta.",
+      title: "2. Älä klikkaa epäilyttäviä linkkejä",
+      description: ["Vältä linkkejä, jos et ole varma viestin luotettavuudesta."],
     },
     {
-      title: "Pyydetäänkö kirjautumaan sisään tai antamaan arkaluonteisia tietoja?",
+      title: "3. Pyydetäänkö kirjautumaan sisään tai antamaan arkaluonteisia tietoja?",
       description: ["Luotettavat tahot eivät koskaan pyydä pankkitunnuksia, salasanoja tai henkilötietoja tekstiviestillä.",
-                    "Älä kirjaudu sisään linkin kautta - käytä aina virallista verkkosivua"
+                    "Älä kirjaudu sisään linkin kautta - käytä aina virallista verkkosivua."
 
       ]
     },
     {
-        title: "Kiireen tunne on hälytysmerkki",
+        title: "4. Kiireen tunne on hälytysmerkki",
         description: ["Huijarit yrittävät usein saada sinut toimimaan nopeasti ja ajattelematta.",
                       "Ilmaisuja kuten “Toimi heti!” tai “Maksua vaaditaan nyt!” käyetään painostamiseen.",
                       "Älä reagoi kiirehtiviin viesteihin."
         ]
     },
     {
-        title: "Liian hyvä ollakseen totta?",
-        description: "Kyse on todennäköisesti huijauksesta, jos viestissä luvataan suuria palkintoja, rahaa tai ainutlaatuisia tilaisuuksia."
+        title: "5. Liian hyvä ollakseen totta?",
+        description: ["Kyse on todennäköisesti huijauksesta, jos viestissä luvataan suuria palkintoja, rahaa tai ainutlaatuisia tilaisuuksia."
+        ]
     },
     {
-        title: "Jos olet epävarma - varmista viralliselta taholta",
+        title: "6. Jos olet epävarma - varmista viralliselta taholta",
         description: ["Jos olet epävarma, ota yhteyttä organisaatioon heidän verkkosivujensa kautta - älä käytä viestissä olevia yhteystietoja.",
                       "Voit ilmoittaa huijauksista Liikenne- ja viestintävirasto Traficomin Kyberturvallisuuskeskukselle."
                      
@@ -61,7 +62,8 @@ const Checklist = () => {
           </div>
           {openItem === index && (
             <div className="item-description">
-              {item.description}
+              {item.description.map((desc, i) => (
+                <p key={i}>{desc}</p>))}
             </div>
           )}
         </div>
