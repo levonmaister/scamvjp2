@@ -13,7 +13,6 @@
   form {
     display: flex;
     flex-direction: column;
-    gap: 20px;
   }
   
   .personal-information-container label {
@@ -53,7 +52,7 @@
   }
   
   button[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: #d17933;
   }
   
   h1 {

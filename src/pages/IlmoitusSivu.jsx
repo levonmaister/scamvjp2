@@ -25,7 +25,7 @@ const IlmoitusSivu = () => {
 
     return(
         <div>
-            <h1>Ilmoitus</h1>
+            <h1>Ilmoita huijaus</h1>
 
 <div className='form-div'>
             <form>

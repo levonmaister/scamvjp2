@@ -1,16 +1,19 @@
 
 import { useState } from 'react';
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import "../styles/Navbar.css"
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
+    const location = useLocation();
     const toggleMenu = () => {
         setMenuOpen(!menuOpen);
     };
+
     const closeMenu = () => {
         setMenuOpen(false);
     };
+
     let burgerIconClass = "burger";
     if (menuOpen) {
       burgerIconClass += " open";
@@ -33,11 +36,16 @@ const Navbar = () => {
             <span></span>
           </div>
   
-          <div className={navLinksClass}>
-            <Link to="/" onClick={closeMenu}>Etusivu</Link>
+        <div className={navLinksClass}>
+          {location.pathname === "/" ? (
+            <a href="#top" onClick={closeMenu}>Etusivu</a>
+                  ) : (
+                    <Link to="/" onClick={closeMenu}>Etusivu</Link>
+                  )}
             <Link to="/peli" onClick={closeMenu}>Hujausviestin tunnistuspeli</Link>
-            <Link to="/#tunnista-huijaus" onClick={closeMenu}>Näin tunnistat hujausviestin</Link>
+            <a href="#tunnista-huijaus" onClick={closeMenu}>Näin tunnistat hujausviestin</a>
             <a href="#tarinat" onClick={closeMenu}>Tarinat</a>
+
           </div>
         </div>
       </div>
