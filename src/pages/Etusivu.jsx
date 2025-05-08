@@ -6,6 +6,7 @@ import ViestiPeli from '../components/Peli.jsx'
 import '../styles/etusivu.css';
 import NumerotValehtelee from './NumerotValehtelee.jsx';
 import HorrorStories from './HorroStories.jsx';
+import handbild from "../pictures/handbild.png"
 
 
 const Etusivu = () => {
@@ -33,7 +34,7 @@ const Etusivu = () => {
                         <p>SAITKO TEKSTIVIESTIN? <br/>TUNNISTATKO HUIJAUKSEN?</p>
                     </div>
                     <div className="text">
-                        <p>Tektsiviestihuisjaukset käyvät yhä ovelimmiksi. <br/>Opi suojaamaan itsesi - ja testaa taitosi</p>
+                        <p>Tektsiviestihuijaukset käyvät yhä ovelimmiksi. <br/>Opi suojaamaan itsesi - ja testaa taitosi</p>
                     </div>
 
                     <button onClick={()=>{
