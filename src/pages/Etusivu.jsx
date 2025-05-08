@@ -30,34 +30,35 @@ const Etusivu = () => {
     } else {
         return(
             <div>
-            <div className="layout">
-                <div className="rubrik">
-                    <p>SAITKO TEKSTIVIESTIN? <br/>TUNNISTATKO HUJAUKSEN?</p>
-                </div>
-                <div className="text">
-                    <p>Tektsiviestihujaukset käyvät yhä ovelimmiksi. <br/>Opi suojaamaan itsesi - ja testaa taitosi</p>
-                </div>
+                <div className="layout">
+                    <div className="rubrik">
+                        <p>SAITKO TEKSTIVIESTIN? <br/>TUNNISTATKO HUJAUKSEN?</p>
+                    </div>
+                    <div className="text">
+                        <p>Tektsiviestihujaukset käyvät yhä ovelimmiksi. <br/>Opi suojaamaan itsesi - ja testaa taitosi</p>
+                    </div>
 
-                <button onClick={()=>{
-                    setPeli(true);
-                    setClicked(true)
-                    }}
-                    className={clicked ? 'clicked-button' : 'default-button'}
-                >Pelaa peli</button>
+                    <button onClick={()=>{
+                        setPeli(true);
+                        setClicked(true)
+                        }}
+                        className={clicked ? 'clicked-button' : 'default-button'}
+                    >
+                        Pelaa peli</button>
                 
+                </div>
 
-                <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
-                
-            </div>
-            <Checklist /> {/*Ska denna vara här*/}
+                <Checklist /> {/*Ska denna vara här*/}
 
-            <div>
-            <NumerotValehtelee />
-             
-              
-             <HorrorStories />
+
+                <div className="numerotLayout">
+                    <NumerotValehtelee />
+                </div>
+                <div className="storiesLayout">
+                    <HorrorStories />
+                </div>
             </div>
-            </div>
+        
         );
     }
 

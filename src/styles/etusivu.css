@@ -1,12 +1,11 @@
 body {
   background-color: white;
-  min-height: 100vh;
   margin: 0;
 }
 
 .layout {
   display: flex;
-  height: 100vh;
+  height: 70vh;
   position: relative;
   background: linear-gradient(135deg, #f0e9e2 50%, #d17933 50%);
   overflow: hidden;
@@ -15,7 +14,7 @@ body {
 }
 
 .default-button {
-  width: 30%;
+  width: 30vw;
   height: 6vh;
   border-radius: 20px;
   background-color: rgb(11, 31, 126);
@@ -25,7 +24,7 @@ body {
 }
 
 .clicked-button {
-  width: 30%;
+  width: 30vw;
   height: 6vh;
   border-radius: 20px;
   background-color: rgb(11, 31, 126);
@@ -44,5 +43,31 @@ body {
 }
 
 .text {
-  font-size: 24px;
+  font-size: 18px;
+  max-width: 50vw;
+}
+
+@media (min-width: 600px) {
+  .layout {
+    background: linear-gradient(160deg, #f0e9e2 50%, #d17933 50%);
+  }
+
+  .rubrik {
+    font-size: 40px;
+  }
+
+  .text {
+    font-size: 22px;
+    max-width: 70vw;
+  }
+
+  .default-button {
+    width: 20vw;
+    margin-top: 2%;
+  }
+
+  .clicked-button {
+    width: 24vw;
+  }
+
 }
