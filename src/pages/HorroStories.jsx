@@ -10,7 +10,6 @@ const HorrorStories = () => {
       <h1 className="storyheadline">
         Marjatta 71-v. ja Anni 72-v. jäi arvontahujauksen uhreiksi
       </h1>
-      return(
       <div className="stories-container">
         <div className="descriptionandstory">
           <div className="story1-image-container">
@@ -144,7 +143,6 @@ const HorrorStories = () => {
           </div>
         </div>
       </div>
-      );
     </div>
   );
 };
