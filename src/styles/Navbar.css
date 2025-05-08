@@ -69,6 +69,22 @@ a:visited {
     pointer-events: none;
     z-index: 10;
 }
+.nav-links a {
+  transition: color 0.3 ease, transform 0.3s ease;
+  cursor: pointer;
+}
+.nav-links a:hover {
+  color: rgb(11, 31, 126);
+  transform: scale(1.02);
+}
+.logo a {
+  display: inline-block;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+.logo a:hover {
+  color: rgb(11, 31, 126);
+  transform: scale(1.02);
+}
   
 .nav-links.active {
     transform: translateY(0);
