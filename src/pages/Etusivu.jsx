@@ -33,7 +33,7 @@ const Etusivu = () => {
                         <p>SAITKO TEKSTIVIESTIN? <br/>TUNNISTATKO HUIJAUKSEN?</p>
                     </div>
                     <div className="text">
-                        <p>Tektsiviestihujaukset käyvät yhä ovelimmiksi. <br/>Opi suojaamaan itsesi - ja testaa taitosi</p>
+                        <p>Tektsiviestihuisjaukset käyvät yhä ovelimmiksi. <br/>Opi suojaamaan itsesi - ja testaa taitosi</p>
                     </div>
 
                     <button onClick={()=>{
