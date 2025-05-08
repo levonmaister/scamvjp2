@@ -62,10 +62,13 @@ html {
 }
 
 .handbild-container img {
-  width: 345px;
+  width: 280px;
 }
 
+
+
 @media (min-width: 600px) {
+
   .layout {
     background: linear-gradient(160deg, #f0e9e2 50%, #E98A45 50%);
   }
@@ -94,6 +97,15 @@ html {
   }
 
 }
+
+
+
+@media (max-width: 600px) {
+  .handbild-container img{
+    max-width: 240px;
+  }
+}
+
 @media (max-width: 400px) {
 .handbild-container img {
   width: 160px;
@@ -106,3 +118,4 @@ html {
 }
 }
 
+  
