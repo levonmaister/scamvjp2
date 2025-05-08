@@ -7,11 +7,6 @@ import story3img from "../pictures/ensamkvinna_liten.png";
 const HorrorStories = () => {
   return (
     <div className="stories-container">
-      <h1>Esimerkkejä huijauksista</h1>
-      <br></br>
-      <br></br>
-      <br></br> <br></br>
-      <br></br> <br></br>
       <div className="story1">
         <h1 className="storyheadline">
           Marjatta 71-v. ja Anni 72-v. jäi arvontahujauksen uhreiksi
@@ -21,7 +16,6 @@ const HorrorStories = () => {
     return(
 
         <div className="stories-container">
-
 <br></br>
 <br></br>
 <br></br> <br></br><br></br> <br></br>
@@ -40,12 +34,9 @@ const HorrorStories = () => {
                 <div className='story1-description'>
                     <p>
                     Marjatta ja Anni ovat kotoisin Porvoosta ja ovat olleet ystäviä jo pitkään. <br></br><br></br>
-
 Anni kertoo, kuinka hän eräänä päivänä sai tavallisen Facebook-viestin Marjattalta. Yleensä he juttelevat tekstiviestitse, mutta koska molemmat käyttävät Facebookia aktiivisesti, ei Anni pitänyt sitä mitenkään outona. <br></br> <br></br>
-
 Facebook-viestissä Marjatta kysyi Annin puhelinnumeroa ja kertoi, että he olivat osallistuneet yhdessä arvontaan ja voittaneet. 
 <br></br> <br></br>
-
 – Minusta oli outoa, että hän kysyi puhelinnumeroani, koska sen pitäisi olla hänellä tallessa puhelimessaan, mutta en ajatellut asiaa sen enempää, ja lottovoitto kuulosti tietenkin upealta, Anni kertoo. 
 <br></br> <br></br>
 – Seuraavaksi Marjatta kysyi joitakin kuusinumeroisia koodeja, joita olin saanut puhelimeeni ja annoin ne hänelle. 
@@ -59,10 +50,7 @@ Lopulta he yhdessä ymmärsivät ikävän totuuden, Marjattan Facebook-tili oli 
 Anni ja Marjatta ilmoittivat asiasta poliisille ja pankille. He neuvoivat Annia vaihtamaan salasanansa ja tekemään niistä turvallisemmat. Pankki huolehti siitä, ettei Annin tililtä katoaisi rahaa siltä varalta, että huijarit olisivat saaneet haltuunsa hänen pankkitietonsa.
                     </p>
                 </div>
-
                 </div>
-
-
             </div>
 
 
@@ -209,6 +197,8 @@ Anni ja Marjatta ilmoittivat asiasta poliisille ja pankille. He neuvoivat Annia 
         </div>
       </div>
     </div>
+  );
+  </div>
   );
 };
 
