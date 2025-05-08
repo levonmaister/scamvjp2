@@ -1,10 +1,8 @@
+import "../styles/stories.css";
 
-
-import "../styles/stories.css"
-
-
-import story1img from "../pictures/tvåkvinnor_liten.png"
-
+import story1img from "../pictures/tvåkvinnor_liten.png";
+import story2img from "../pictures/gubbe_liten.png";
+import story3img from "../pictures/ensamkvinna_liten.png";
 
 const HorrorStories = () => {
 
@@ -12,14 +10,14 @@ const HorrorStories = () => {
     return(
 
         <div className="stories-container">
-            <h1>Huijaus esimerkit</h1>
+            <h1>Hujaus esimerkit</h1>
 <br></br>
 <br></br>
 <br></br> <br></br><br></br> <br></br>
 
             <div className="story1">
 
-            <h1 className='story1headline'>Marjatta 71-v. ja Anni 72-v. joutuivat arvontahuijauksen uhreiksi</h1>
+            <h1 className='story1headline'>Marjatta 71-v. ja Anni 72-v. jäi arvontahujauksen uhreiksi</h1>
 
             <div className='descriptionandstory'>
 
@@ -68,9 +66,7 @@ Anni ja Marjatta ilmoittivat asiasta poliisille ja pankille. He neuvoivat Annia 
             </div>
 
         </div>
-
-    )
-}
-
+  );
+};
 
 export default HorrorStories;

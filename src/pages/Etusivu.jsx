@@ -4,6 +4,8 @@ import { useState } from 'react'
 import React from 'react'
 import ViestiPeli from '../components/Peli.jsx'
 import '../styles/etusivu.css';
+import Checklist from './Checklist.jsx';
+import "../styles/Checklist.css";
 import NumerotValehtelee from './NumerotValehtelee.jsx';
 import HorrorStories from './HorroStories.jsx';
 
@@ -41,19 +43,22 @@ const Etusivu = () => {
                         setClicked(true)
                         }}
                         className={clicked ? 'clicked-button' : 'default-button'}
-                    >Pelaa peli</button>
+                    >
+                        Pelaa peli</button>
                 
                 </div>
 
-                
+                <Checklist /> {/*Ska denna vara här*/}
+
 
                 <div className="numerotLayout">
                     <NumerotValehtelee />
                 </div>
-                <div className="storiesLayout">
+                <div id="tarinat" className="storiesLayout">
                     <HorrorStories />
                 </div>
             </div>
+        
         );
     }
 

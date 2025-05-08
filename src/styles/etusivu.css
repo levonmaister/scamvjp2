@@ -2,6 +2,10 @@ body {
   font-family: "Anton", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .layout {
   display: flex;
   height: 70vh;
