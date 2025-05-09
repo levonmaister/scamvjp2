@@ -67,9 +67,10 @@ a:visited {
     top: 100%;
     left: 0;
     width: 98%;
-    background-color: white;
+    background-color: rgb(255, 255, 255, 0.8);
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
+    text-align: right;
     gap: 0.75rem;
     padding: 1%;
     transform: translateY(-200%);
@@ -78,6 +79,7 @@ a:visited {
     z-index: 10;
 }
 .nav-links a {
+  margin-right: 1.5rem;
   transition: color 0.3 ease, transform 0.3s ease;
   cursor: pointer;
 }
