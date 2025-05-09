@@ -19,11 +19,7 @@
     transform: scale(1.02);
 }
 
-h3 {
-    color: rgb(11, 31, 126);
-}
 body {
-    background: linear-gradient(135deg, #f0e9e2 50%, #E98A45 50%);
     justify-content: center;
     align-items: center;
 }
@@ -32,19 +28,28 @@ body {
 .chat-container {
     width: 90%;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-    padding: 20px;
+    padding: 12px;
     display: flex;
     flex-direction: column;
-    background: rgba(255, 255, 255, 0);
-    margin: 1%;
     justify-content: center;
     align-items: center;
+}
+
+.Rubrik {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.infoText {
+    font-size: 14px;
+    width: 90%;
 }
   
 .chat {
     background-color: white;
-    width: 90vw;
-    height: 500px;
+    width: 85vw;
+    height: 60vh;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -58,17 +63,16 @@ body {
     text-align: center;
     background-color: #e5e5ea84;
     border-bottom: #707072;
-    padding-bottom: 15px;
-    padding-top: 15px;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
 }
   
 .bubble.left {
     background: #e5e5ea;
     padding: 12px 16px;
     border-radius: 20px;
-    max-width: 80%;
-    margin-bottom: 20px;
-    margin-top: 50px;
+    max-width: 60vw;
+    margin-top: 2vh;
     display: inline-block;
     margin-left: 1%;
 }
@@ -77,11 +81,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 5px;
     position: absolute;
     bottom: 2%;
     width: 90%;
-    margin-left: 3%;
+    margin-left: 2%;
 }
 
 .options button {
@@ -111,20 +115,21 @@ body {
 }
   
 .feedback {
-    margin-top: 40px;
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 20px;
     padding: 10px;
     border-radius: 10px;
-    flex: 2;
     max-width: 30%;
     text-align: center;
     z-index: 10;
+    position: fixed
+
 }
   
 .fBack {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .feedback.correct {
@@ -152,21 +157,69 @@ body {
 }
 
 .result button {
-    width: 40%;
+    width: 40vw;
     align-self: center;
-    height: 48px;
+    height: 10vh;
     border-radius: 20px;
     border-color: white;
-    background-color: #007aff;
+    background-color: rgb(22, 44, 145);
     color: white;
     font-size: 20px;
     margin-top: 15%;
     margin-bottom: 5%;
 }
 
+
+
 @media (min-width: 600px) {
     .chat {
-        max-width: 600px;
+        max-width: 70vw;
+    }
+    .Rubrik {
+        font-size: 36px;
+    }
+    .infoText {
+        max-width: 70vw;
+        font-size: 20px;
+    }
+    .bubble.left {
+        max-width: 50vw;
+    }
+    .result button {
+        height: 8vh;
+        width: 30vw;
+        font-size: 24px;
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    .Rubrik {
+        font-size: 46px;
+    }
+    .infoText {
+        font-size: 24px;
+    }
+    .bubble.left {
+        font-size: 24px;
+    }
+    .feedback {
+        font-size: 30px;
+    }
+}
+
+@media (min-height: 1300px) {
+    .result button {
+        height: 5vh;
+        width: 30vw;
+    }
+    .chat {
+        height: 50vh;
+    }
+    .options button {
+        width: 20vw;
+        font-size: 22px;
     }
 }
 

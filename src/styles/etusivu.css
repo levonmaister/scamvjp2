@@ -6,6 +6,7 @@ html {
   scroll-behavior: smooth;
 }
 
+
 .layout {
   display: flex;
   height: 90vh;
@@ -34,12 +35,12 @@ html {
 }
 
 .clicked-button {
-  width: 30vw;
+  width: 45vw;
   height: 6vh;
   border-radius: 20px;
   background-color: rgb(11, 31, 126);
   color: white;
-  font-size: 20px;
+  font-size: 16px;
   margin-top: 5%;
   margin-left: 5%;
   transition: transform 0.2s ease, background-color 0.2s ease;
@@ -143,7 +144,8 @@ h2 {
   }
 
   .clicked-button {
-    width: 24vw;
+    width: 26vw;
+    font-size: 28px;
   }
   #checklist-title {
     text-align: center;

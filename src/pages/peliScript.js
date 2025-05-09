@@ -9,7 +9,7 @@ export const script = [
     },
     {
       sender: "PostNord", 
-      message: "Lähetyksesi on matkalla! Seuraa lähetystäsi: https://postnord/seuraalahetysta.com ",
+      message: "Lähetyksesi on matkalla! Seuraa lähetystäsi: postnord/seuraa.com ",
       options: [
         { answer: "Huijaus", correct: false }, 
         { answer: "Aito", correct: true }
@@ -17,7 +17,7 @@ export const script = [
     },
     {
       sender: "DHL",
-      message: "Hei! Sinulle on tullut lähetys EU:n ulkopuolelta, joka odottaa tullausta. Tullaa lähetys viimeistään 27.6.2025. Lähettäjä: Peak Performance. Tunnus: LR97462648926NL. Tullauksen voi hoitaa Tullin verkkosivuilla (Postin käsittelymaksu 3,10€). Katso ohje Tullin sivuilla tullaamiseen: https://jakelu.posti.fi/#/cd/LR97462648926NL=DjFI=fi",
+      message: "Sinulle on tullut lähetys, joka odottaa tullausta. Tullaa lähetys viimeistään 27.6.2025. Lähettäjä: Zalando. Tunnus: LR974626NL. Ohje tullaamiseen: jakelu.posti.fi",
       options: [
         { answer: "Huijaus", correct: false }, 
         { answer: "Aito", correct: true }
@@ -57,7 +57,7 @@ export const script = [
     },
     {
       sender: "vip",
-      message: "20 FREE SPINS! Join Cobra Casino’s Christmas Fest now and celebrate BIG! www.cobracasinochristmasfestNow.com",
+      message: "20 FREE SPINS! Join Cobra Casino’s Christmas Fest now and celebrate BIG! www.cobracasino christmasfestNow.com",
       options: [
         { answer: "Huijaus", correct: true },
         { answer: "Aito", correct: false }
