@@ -2,9 +2,10 @@
 
 import React from 'react';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { script } from '../pages/peliScript';
 import "../styles/Peli.css";
-
+import { useNavigate } from 'react-router-dom';
 
 
 export default function ViestiPeli() {
@@ -14,6 +15,7 @@ export default function ViestiPeli() {
   const [locked, setLocked] = useState(false);
   const [score, setScore] = useState(0);
   const [gameOver, setGameOver] = useState(false);
+  const navigate = useNavigate();
 
   
   
@@ -51,18 +53,22 @@ export default function ViestiPeli() {
         <h4>Peli loppui!</h4>
         <p>Tunnistit: {score}/{script.length} huijausta</p>
         <button onClick={playAgain}>Pelaa uudestaan</button>
-
       </div>
     )
   };
     
   return (
     <div className="chat-container">
+      
       <h1>Tunnista huijausviestit!</h1>
-
       <div className="infoText">
         <p>Näin pelaat: lue viesti, jos epäilet viestin olevan huijaus, paina "Huijaus"-nappia. <br />Paina "Aito"-nappia, jos viesti on mielestäsi luotettava.</p>
       </div>
+
+      <button onClick={()=>{
+                        navigate('/');
+                        }}
+                    >Pelaa peliä</button>
       
       <div className="chat">
         <div className="sender">{current.sender}</div>

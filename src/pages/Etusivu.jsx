@@ -8,26 +8,16 @@ import NumerotValehtelee from './NumerotValehtelee.jsx';
 import HorrorStories from './HorroStories.jsx';
 import handbild from "../pictures/handbild.png"
 import Checklist from "./Checklist.jsx"
+import { useNavigate } from 'react-router-dom';
+
 
 
 const Etusivu = () => {
 
     const [peli, setPeli] = useState(false)
     const [clicked, setClicked] = useState(false)
-
-    if(peli){
-        return(
-            <div>
-                <button onClick={()=> {
-                    setPeli(false); 
-                    setClicked(false);
-                    }}
-                    className={clicked ? 'clicked-button' : 'default-button'}
-                >Lopeta peli </button>
-                <ViestiPeli />
-            </div>
-        );
-    } else {
+    const navigate = useNavigate();
+        
         return(
             <div>
                 <div className="layout">
@@ -39,8 +29,7 @@ const Etusivu = () => {
                     </div>
 
                     <button onClick={()=>{
-                        setPeli(true);
-                        setClicked(true)
+                        navigate('/peli');
                         }}
                         className={clicked ? 'clicked-button' : 'default-button'}
                     >Pelaa peliä</button>
@@ -66,7 +55,6 @@ const Etusivu = () => {
         );
     }
 
-};
 
 
 
