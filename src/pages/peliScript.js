@@ -47,4 +47,28 @@ export const script = [
         { answer: "Aito", correct: false }
         ],
     },
+    {
+      sender: "omaolo",
+      message: "Hei! Sinulle on uusi viesti Omaolossa. Voit lukea viestin, kun kirjaudut verkossa Omaolo-palveluun.",
+      options: [
+        { answer: "Huijaus", correct: false },
+        { answer: "Aito", correct: true }
+      ],
+    },
+    {
+      sender: "vip",
+      message: "20 FREE SPINS! Join Cobra Casino’s Christmas Fest now and celebrate BIG! www.cobracasinochristmasfestNow.com",
+      options: [
+        { answer: "Huijaus", correct: true },
+        { answer: "Aito", correct: false }
+      ],
+    },
+    {
+      sender: "+358 40 125 0664",
+      message: "Tämä on viimeinen ilmoitus, veroviranomaiset ovat lähettäneet sinulle verojasi koskevan viestin. Siirry osoitteeseen vero-viesti.com ja toimi. Terveisin Vero-fi",
+      options: [
+        { answer: "Huijaus", correct: true },
+        { answer: "Aito", correct: false }
+      ],
+    }
 ];
