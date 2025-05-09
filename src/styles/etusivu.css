@@ -17,7 +17,7 @@ html {
 }
 
 .default-button {
-  width: 30vw;
+  width: 50vw;
   height: 10vh;
   border-radius: 30px;
   background-color: rgb(11, 31, 126);
@@ -52,16 +52,16 @@ html {
 .rubrik {
   text-align: left;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 24px;
   gap: 1%;
   text-align: left;
-  margin-left: 5%;
+  margin-left: 3%;
 }
 
 .text {
-  font-size: 18px;
+  font-size: 16px;
   max-width: 50vw;
-  margin-left: 5%;
+  margin-left: 3%;
 }
 
 .handbild-container {
@@ -72,7 +72,7 @@ html {
 }
 
 .handbild-container img {
-  width: 280px;
+  width: 150px;
 }
 
 .checklist-title {
@@ -117,23 +117,5 @@ h2 {
 
 
 
-@media (max-width: 600px) {
-  .handbild-container img{
-    max-width: 240px;
-  }
-}
-
-@media (max-width: 400px) {
-.handbild-container img {
-  width: 160px;
-}
-.default-button{
-  width: 50%;
-}
-.text{
-  max-width: 80%;
-}
-
-}
 
   
