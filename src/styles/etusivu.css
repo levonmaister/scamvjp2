@@ -120,19 +120,26 @@ h2 {
   }
 
   .rubrik {
-    font-size: 40px;
+    font-size: 46px;
   }
 
   .text {
-    font-size: 22px;
+    font-size: 24px;
     max-width: 70vw;
   }
 
   .default-button {
-    width: 20vw;
+    width: 30vw;
     margin-top: 2%;
     align-self: auto;
     margin-left: 5vw;
+    height: 8vh;
+    font-size: 24px;
+    margin-top: 5%;
+  }
+
+  .handbild-container img {
+    height: 45vh;
   }
 
   .clicked-button {
@@ -144,6 +151,67 @@ h2 {
 
 }
 
+@media (min-width: 1024px) {
+  .rubrik {
+    font-size: 48px;
+    padding-bottom: 0;
+    height: 25vh;
+  }
+
+  .text {
+    font-size: 28px;
+    max-width: 40vw;
+    
+  }
+  .default-button {
+    font-size: 30px;
+    height: 10vh;
+    width: 25vw;
+    margin-top: 1%;
+  }
+  .handbild-container img {
+    height: auto;
+    width: 30vw;
+  }
+}
+
+@media (min-height: 1366px) {
+
+  .rubrik {
+    font-size: 54px;
+    height: 20vh;
+  }
+  .default-button {
+    height: 8vh;
+    
+  }
+
+  .handbild-container img {
+    width: 46vw;
+  }
+}
+
+
+@media (min-width: 2000px) {
+  .rubrik {
+    font-size: 74px;
+  }
+  .text {
+    font-size: 50px;
+  }
+  .default-button {
+    width: 18vw;
+    font-size: 50px;
+    margin-top: 4vh;
+  }
+  .handbild-container img {
+    width: 26vw;
+  }
+  .layout {
+    background: linear-gradient(165deg, #f0e9e2 50%, #E98A45 50%);
+  }
+
+}
 
 
 
