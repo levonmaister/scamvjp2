@@ -65,3 +65,10 @@ body {
         background: linear-gradient(160deg, #E98A45 50%, #f0e9e2 50%);
     }
 }
+
+@media (min-width: 2000px) {
+    .numerot-wrapper {
+        background: linear-gradient(165deg, #E98A45 50%, #f0e9e2 50%);
+        
+    }
+}
