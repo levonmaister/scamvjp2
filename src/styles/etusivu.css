@@ -42,6 +42,11 @@ html {
   font-size: 20px;
   margin-top: 5%;
   margin-left: 5%;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+.clicked-button:hover {
+  background-color: rgb(22, 44, 145);
+  transform: scale(1.03);
 }
 
 .rubrik {
