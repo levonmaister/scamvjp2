@@ -59,16 +59,16 @@ export default function ViestiPeli() {
     
   return (
     <div className="chat-container">
+      <button className="exit-button" onClick={()=>{
+                        navigate('/');
+                        }}
+                    >Lopeta peli</button>
       
       <h1>Tunnista huijausviestit!</h1>
       <div className="infoText">
         <p>Näin pelaat: lue viesti, jos epäilet viestin olevan huijaus, paina "Huijaus"-nappia. <br />Paina "Aito"-nappia, jos viesti on mielestäsi luotettava.</p>
       </div>
 
-      <button onClick={()=>{
-                        navigate('/');
-                        }}
-                    >Pelaa peliä</button>
       
       <div className="chat">
         <div className="sender">{current.sender}</div>
