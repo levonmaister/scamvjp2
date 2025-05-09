@@ -9,7 +9,7 @@ body {
     overflow: hidden;
     padding: 2vh;
     flex-direction: column;
-    min-height: 70vh;
+    padding: 2vh;
     display: flex;
     flex-direction: column;
     justify-content: center;

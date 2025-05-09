@@ -9,6 +9,7 @@ import HorrorStories from './HorroStories.jsx';
 import handbild from "../pictures/handbild.png"
 import Checklist from "./Checklist.jsx"
 import { useNavigate } from 'react-router-dom';
+import Footer from "../components/Footer.jsx";
 
 
 
@@ -51,7 +52,9 @@ const Etusivu = () => {
                 <div id="tarinat" className="storiesLayout">
                     <HorrorStories />
                 </div>
+                <Footer />
             </div>
+            
         );
     }
 

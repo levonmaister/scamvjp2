@@ -42,7 +42,7 @@ const Navbar = () => {
                   ) : (
                     <Link to="/" onClick={closeMenu}>Etusivu</Link>
                   )}
-            <Link to="/peli" onClick={closeMenu}>Hujausviestin tunnistuspeli</Link>
+            <Link to="/peli" onClick={closeMenu}>Huijausviestin tunnistuspeli</Link>
             <a href="#checklist-title" onClick={closeMenu}>Näin tunnistat hujausviestin</a>
             <a href="#tarinat" onClick={closeMenu}>Tarinat</a>
 
