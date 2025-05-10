@@ -13,24 +13,19 @@ body {
 .main-title {
     font-family: "Anton", sans-serif;
     text-align: center;
-    font-size: 36px;
+    font-size: 24px;
     font-weight: bold;
     margin-bottom: 10px;
     color: black;
 }
 
-.subtitle {
-    text-align: center;
-    font-weight: 600;
-    font-size: 18px;
-    margin-bottom: 40px;
-}
 
 .bubbles-container {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1;
     justify-content: center;
-    gap: 20px;
+    align-items: center;
+    gap: 10px;
     margin-bottom: 50px;
 }
 
@@ -45,10 +40,11 @@ body {
 }
 
 .quote-container {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 2;
     gap: 30px;
     align-items: center;
+    justify-content: center
 }
 
 .quote {
@@ -66,6 +62,20 @@ body {
     .numerot-wrapper {
         background: linear-gradient(160deg, #E98A45 50%, #f0e9e2 50%);
     }
+
+    .bubbles-container {
+        grid-template-columns: repeat(2, 40vw);
+    }
+
+    .main-title {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .main-title {
+        font-size: 34px;
+    }
 }
 
 @media (min-width: 2000px) {
@@ -73,4 +83,5 @@ body {
         background: linear-gradient(165deg, #E98A45 50%, #f0e9e2 50%);
         
     }
+
 }

@@ -76,7 +76,9 @@ html {
 }
 
 .checklist-title {
-  align-self: center;
+  font-size: 24px;
+  font-family: "Anton", sans-serif;
+  text-align: center;
 }
 
 h2 {
@@ -134,6 +136,9 @@ h2 {
   .handbild-container img {
     height: 40vh;
   }
+  .checklist-title {
+    font-size: 30px;
+  }
 
 }
 
@@ -153,6 +158,10 @@ h2 {
     height: 70px;
     width: 25vw;
     margin-top: 2vh;
+  }
+
+  .checklist-title {
+    font-size: 34px;
   }
 
 }
