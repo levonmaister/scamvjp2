@@ -15,7 +15,7 @@ const MyDropzone = () => {
     <div className="dropzone-container">
       <label className="dropzone">
         <img className="dropzone-icon" src={dropIcon} alt="Upload Icon" />
-        <p><strong>Valitse kuva</strong> tai dräggää se tänne.</p>
+        <p><strong>Lataa kuva</strong></p>
         <input
           type="file"
           className="file-input"

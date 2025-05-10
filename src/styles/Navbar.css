@@ -43,8 +43,8 @@
 .nav-links {
     display: flex;
     align-items: center;
-    font-family: 'Inter', sans-serif;
-    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+    font-weight: lighter;
     box-shadow: 0 8px 20px rgba(0,0,0,0.05);
     
 }
