@@ -63,7 +63,7 @@ body {
 
 .quote-bubble1 {
     display: inline-block;
-    background-color: #d97f36;
+    background-color: #E98A45;
     color: black;
     font-weight: lighter;
     font-size: 16px;
@@ -84,7 +84,7 @@ body {
     width: 0;
     height: 0;
     border: 12px solid transparent;
-    border-top-color: #d97f36;
+    border-top-color: #E98A45;
   }
 
 .story2 {
@@ -94,7 +94,7 @@ body {
 .quote-bubble2 {
     display: inline-block;
     padding: 20px 30px;
-    background-color: #d97f36;
+    background-color: #E98A45;
     color: black;
     font-weight: lighter;
     font-size: 16px;
@@ -115,12 +115,12 @@ body {
     width: 0;
     height: 0;
     border: 12px solid transparent;
-    border-top-color: #d97f36;
+    border-top-color: #E98A45;
   }
 
   .quote-bubble3 {
     display: inline-block;
-    background-color: #d97f36;
+    background-color: #E98A45;
     color: black;
     font-weight: lighter;
     font-size: 16px;
@@ -142,7 +142,7 @@ body {
     width: 0;
     height: 0;
     border: 12px solid transparent;
-    border-top-color: #d97f36;
+    border-top-color: #E98A45;
   }
 
 @media (max-width: 799px) {
