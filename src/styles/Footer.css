@@ -22,9 +22,10 @@
   }
   .footer-links {
     display: flex;
-    flex-wrap: wrap;           
-    justify-content: center;   
-    gap: clamp(0.75rem, 20vw, 50rem);
+    flex-wrap: nowrap;         
+    justify-content: space-evenly; 
+    width: 100%; 
+    gap: clamp(0.75rem, 6vw, 15vw);
   }
   
   .footer-links a {
