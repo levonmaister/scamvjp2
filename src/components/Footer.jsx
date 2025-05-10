@@ -9,8 +9,8 @@ const Footer = () => {
                 <div className="footer-links">
                     <a href="mailto:tulitkohuijatuksi@gmail.com">Ota yhteyttä</a>
                     <Link to="/ilmoitus">Ilmoita huijaus</Link>
-                    <a href="/instagram">Instagram</a>
-                    <a href="/facebook">Facebook</a>
+                    <a href="https://www.instagram.com/tulitkohuijatuksi/"target="_blank">Instagram</a>
+                    <a href="https://m.facebook.com/profile.php?id=61576197118855&name=xhp_nt__fb__action__open_user"target="_blank">Facebook</a>
                 </div>
             </div>
         </footer>
