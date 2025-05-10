@@ -8,12 +8,15 @@ const HorrorStories = () => {
   return (
     <div className="stories-container">
       <h1 className="storyheadline">
-        Marjatta 71-v. ja Anni 72-v. jäi arvontahujauksen uhreiksi
+        Marjatta ja Anni jäi arvontahuijauksen uhreiksi
       </h1>
       <div className="stories-container">
         <div className="descriptionandstory">
           <div className="story1-image-container">
             <img className="storykuva" src={story1img} />
+            <div className="quote-bubble1">
+                ”Se ei ollut minä!” huudahdin, kun Anni soitti.<br />– Marjatta, 71-v.
+            </div>
           </div>
           <div className="story-description">
             <p>
@@ -55,12 +58,15 @@ const HorrorStories = () => {
       </div>
       <div className="story2">
         <h1 className="storyheadline">
-          Onni 84 -v. menetti kymmeniä tuhansia euroja puhelinhuijauksessa.
+          Onni menetti kymmeniä tuhansia euroja puhelinhuijauksessa.
         </h1>
 
         <div className="descriptionandstory">
           <div className="story2-image-container">
             <img className="storykuva" src={story2img} />
+            <div className="quote-bubble2">
+              Minun olisi pitänyt pitää kiireellistä tilannetta varoitusmerkkinä.<br />– Onni, 84-v.
+            </div>
           </div>
           <div className="story-description">
             <p>
@@ -104,11 +110,14 @@ const HorrorStories = () => {
       </div>
       <div className="story3">
         <h1 className="storyheadline">
-          Tiina Mäkelä, 65-v. menetti säästönsä huijausviestin takia.
+          Tiina menetti säästönsä huijausviestin takia.
         </h1>
         <div className="descriptionandstory">
           <div className="story2-image-container">
             <img className="storykuva" src={story3img} />
+            <div className="quote-bubble3">
+                Menetin 3000 euroa ja ensimmäiset eläkematkasuunnitelmani.<br />– Tiina, 65-v.
+            </div>
           </div>
           <div className="story-description">
             <p>
