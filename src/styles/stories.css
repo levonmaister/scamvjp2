@@ -7,9 +7,8 @@ body {
 .stories-container {
     background-color: #f0e9e2;
     overflow: hidden;
-    padding: 2vh;
+    padding: 7vh;
     flex-direction: column;
-    padding: 2vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,11 +18,11 @@ body {
 
 .story-description {
     height: auto;
-    width: 400px;
+    max-width: 600px;
     background-color: white;
     margin: 20px; 
     padding: 32px 24px;
-    border-radius: 12px;
+    border-radius: 20px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
     font-family: Arial, sans-serif;
     font-size: 16px;
@@ -54,7 +53,7 @@ body {
 
 .storyheadline{
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex;
 }
 
 .descriptionandstory{
@@ -125,9 +124,9 @@ body {
     color: black;
     font-weight: lighter;
     font-size: 16px;
-    padding: 20px 30px;
+    padding: 20px 40px;
     border-radius: 999px;
-    max-width: 250px;
+    max-width: 200px;
     margin-top: 16px;
     position: relative;
     font-family: Arial, sans-serif;
@@ -139,7 +138,7 @@ body {
     content: '';
     position: absolute;
     top: 100%;
-    left: 20%;
+    left: 22%;
     width: 0;
     height: 0;
     border: 12px solid transparent;
