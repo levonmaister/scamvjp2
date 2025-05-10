@@ -63,10 +63,11 @@ export default function ViestiPeli() {
                         navigate('/');
                         }}
                     >Lopeta peli</button>
-      
-      <h1>Tunnista huijausviestit!</h1>
+        <div className="Rubrik">
+          <h1>Tunnista huijausviestit!</h1>
+        </div>
       <div className="infoText">
-        <p>Näin pelaat: lue viesti, jos epäilet viestin olevan huijaus, paina "Huijaus"-nappia. <br />Paina "Aito"-nappia, jos viesti on mielestäsi luotettava.</p>
+        <p>Näin pelaat: <br /> Lue viesti, jos epäilet viestin olevan huijaus, paina "Huijaus"-nappia. <br />Paina "Aito"-nappia, jos viesti on mielestäsi luotettava.</p>
       </div>
 
       

@@ -19,10 +19,6 @@
     transform: scale(1.02);
 }
 
-body {
-    justify-content: center;
-    align-items: center;
-}
 
 
 .chat-container {
@@ -33,17 +29,22 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
 }
 
 .Rubrik {
-    font-size: 24px;
+    font-size: 14px;
     font-weight: bold;
     margin: 0;
+    font-family: "Anton", sans-serif;
+    color: black;
 }
 
 .infoText {
-    font-size: 14px;
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
     width: 90%;
+    font-weight: lighter;
 }
   
 .chat {
@@ -176,11 +177,11 @@ body {
         max-width: 70vw;
     }
     .Rubrik {
-        font-size: 36px;
+        font-size: 14px;
     }
     .infoText {
         max-width: 70vw;
-        font-size: 20px;
+        font-size: 14px;
     }
     .bubble.left {
         max-width: 50vw;
@@ -196,10 +197,10 @@ body {
 @media (min-width: 1024px) {
 
     .Rubrik {
-        font-size: 46px;
+        font-size: 14px;
     }
     .infoText {
-        font-size: 24px;
+        font-size: 18px;
     }
     .bubble.left {
         font-size: 24px;

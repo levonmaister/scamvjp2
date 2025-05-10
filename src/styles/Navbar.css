@@ -95,7 +95,7 @@ a:visited {
     transform: translateY(-200%);
     transition: transform 0.3s ease, opacity 0.3s ease;
     pointer-events: none;
-    z-index: 10;
+    z-index: 5;
 }
 
 
@@ -112,8 +112,10 @@ a:visited {
 }
 
 .logo a {
+  position: relative;
   display: inline-block;
   transition: transform 0.3s ease, color 0.3s ease;
+  z-index: 30;
 }
 .logo a:hover {
   color: rgb(11, 31, 126);
