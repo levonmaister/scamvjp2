@@ -10,10 +10,11 @@
     font-size: 16px;
     text-align: center;
     align-self: flex-start;
-    width: 26%;
+    width: 40vw;
     font-weight: bolder;
     transition: transform 0.2s ease, background-color 0.2s ease;
 }
+
 .exit-button:hover {
     background-color: rgb(22, 44, 145);
     transform: scale(1.02);
@@ -145,22 +146,21 @@
 
 
 .result {
-    width: 90%;
+    width: 90vw;
     margin: 50px auto;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-    padding: 20px;
     display: flex;
     flex-direction: column;
     background-color: white;
-    height: 80%;
+    height: 60vh;
     align-items: center;
     font-size: 28px;
 }
 
 .result button {
-    width: 40vw;
+    width: 60vw;
     align-self: center;
-    height: 10vh;
+    height: 50px;
     border-radius: 20px;
     border-color: white;
     background-color: rgb(22, 44, 145);
@@ -177,30 +177,36 @@
         max-width: 70vw;
     }
     .Rubrik {
-        font-size: 14px;
+        font-size: 20px;
     }
     .infoText {
         max-width: 70vw;
-        font-size: 14px;
+        font-size: 18px;
     }
     .bubble.left {
         max-width: 50vw;
     }
     .result button {
-        height: 8vh;
-        width: 30vw;
+        height: 60px;
+        width: 250px;
         font-size: 24px;
+    }
+    .exit-button {
+        width: 20vw;
+    }
+
+    .result {
+        width: 60vw;
+        height: 50vh;
+
     }
 
 }
 
 @media (min-width: 1024px) {
 
-    .Rubrik {
-        font-size: 14px;
-    }
     .infoText {
-        font-size: 18px;
+        font-size: 20px;
     }
     .bubble.left {
         font-size: 24px;
@@ -208,19 +214,9 @@
     .feedback {
         font-size: 30px;
     }
+    .result {
+        height: 60vh;
+    }
 }
 
-@media (min-height: 1300px) {
-    .result button {
-        height: 5vh;
-        width: 30vw;
-    }
-    .chat {
-        height: 50vh;
-    }
-    .options button {
-        width: 20vw;
-        font-size: 22px;
-    }
-}
 

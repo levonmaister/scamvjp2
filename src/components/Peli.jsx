@@ -49,10 +49,20 @@ export default function ViestiPeli() {
   
   if (gameOver) {
     return (
-      <div className="result">
-        <h4>Peli loppui!</h4>
-        <p>Tunnistit: {score}/{script.length} huijausta</p>
-        <button onClick={playAgain}>Pelaa uudestaan</button>
+      <div className="result-container">
+        <button className="exit-button" onClick={()=>{
+                        navigate('/');
+                        }}
+                      >Lopeta peli
+        </button>
+        
+        <div className='result'>
+          <h4>Peli loppui!</h4>
+          <p>Tunnistit: {score}/{script.length} huijausta</p>
+          <button onClick={playAgain}>Pelaa uudestaan</button>
+
+        </div>
+        
       </div>
     )
   };

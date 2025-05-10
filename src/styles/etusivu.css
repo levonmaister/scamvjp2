@@ -18,7 +18,7 @@ html {
 
 .default-button {
   width: 50vw;
-  height: 10vh;
+  height: 50px;
   border-radius: 30px;
   background-color: rgb(11, 31, 126);
   color: white;
@@ -72,7 +72,7 @@ html {
 }
 
 .handbild-container img {
-  width: 150px;
+  height: 30vh;
 }
 
 .checklist-title {
@@ -84,9 +84,6 @@ h2 {
 }
 
 @media (min-width: 375px) {
-  .handbild-container img {
-    width: 190px;
-  }
 
   .rubrik {
     font-size: 28px;
@@ -97,21 +94,10 @@ h2 {
 }
 
 @media (min-width: 414px) {
-  .handbild-container img {
-    width: 210px;
-  }
   .text {
     font-size: 18px;
   }
 }
-
-@media (min-height: 800px) {
-  .handbild-container img {
-    width: auto;
-    height: 310px;
-  }
-}
-
 
 @media (min-width: 600px) {
 
@@ -131,15 +117,10 @@ h2 {
   .default-button {
     width: 30vw;
     margin-top: 2%;
-    align-self: auto;
-    margin-left: 5vw;
-    height: 8vh;
+    align-self: center;
+    height: 60px;
     font-size: 24px;
-    margin-top: 5%;
-  }
-
-  .handbild-container img {
-    height: 45vh;
+    margin-top: 8vh;
   }
 
   .clicked-button {
@@ -150,47 +131,50 @@ h2 {
     text-align: center;
   }
 
+  .handbild-container img {
+    height: 40vh;
+  }
+
 }
 
 @media (min-width: 1024px) {
   .rubrik {
     font-size: 48px;
     padding-bottom: 0;
-    height: 25vh;
+    
+  }
+  .text {
+    font-size: 24px;
+    max-width: 40vw;
+  
+  }
+  .default-button {
+    font-size: 30px;
+    height: 70px;
+    width: 25vw;
+    margin-top: 2vh;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  .rubrik {
+    font-size: 50px;
   }
 
   .text {
     font-size: 28px;
-    max-width: 40vw;
-    
   }
-  .default-button {
-    font-size: 30px;
-    height: 10vh;
-    width: 25vw;
-    margin-top: 1%;
-  }
-  .handbild-container img {
-    height: auto;
-    width: 30vw;
-  }
-}
 
-@media (min-height: 1366px) {
-
-  .rubrik {
-    font-size: 54px;
-    height: 20vh;
-  }
   .default-button {
-    height: 8vh;
-    
+    margin-top: 4vh;
   }
 
   .handbild-container img {
-    width: 46vw;
+    height: 50vh;
   }
 }
+
 
 
 @media (min-width: 2000px) {
