@@ -65,6 +65,7 @@ body {
 
     .bubbles-container {
         grid-template-columns: repeat(2, 40vw);
+        
     }
 
     .main-title {
@@ -75,6 +76,11 @@ body {
 @media (min-width: 1024px) {
     .main-title {
         font-size: 34px;
+    }
+    .bubbles-container {
+        grid-template-columns: repeat(2, 30vw);
+        margin-top: 5vh;
+        
     }
 }
 
