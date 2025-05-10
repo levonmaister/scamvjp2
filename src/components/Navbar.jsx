@@ -61,11 +61,11 @@ const Navbar = () => {
             <button onClick={()=> {
               scrollToSection("checklist-title");
               closeMenu();
-            }}className="link-button">Näin tunnistat hujausviestin</button>
+              }}className="link-button">Näin tunnistat hujausviestin</button>
             <button onClick={()=>{
               scrollToSection("tarinat");
               closeMenu();
-            }}className="link-button">Tarinat</button>
+              }}className="link-button">Tarinat</button>
           </div>
         </div>
       </div>
