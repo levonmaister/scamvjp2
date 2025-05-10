@@ -7,7 +7,7 @@ body {
 .stories-container {
     background-color: #f0e9e2;
     overflow: hidden;
-    padding: 15vh;
+    padding: 20vh;
     flex-direction: column;
     display: flex;
     flex-direction: column;
@@ -18,11 +18,11 @@ body {
 
 .story-description {
     height: auto;
-    max-width: 500px;
+    max-width: 540px;
     background-color: white;
     margin: 20px; 
     padding: 32px 24px;
-    border-radius: 50px;
+    border-radius: 30px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
     font-family: Arial, sans-serif;
     font-size: 16px;
@@ -40,31 +40,36 @@ body {
 
 .story-wrapper {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
-    margin-bottom: 10vh;
+    margin-bottom: 5vh;
     position: relative;
-    gap: 5vw;
+    gap: 2vw;
 }
+
 .artikel1 {
     flex-direction: row;
   }
 
-  .artikel2 {
+.artikel2 {
     flex-direction: row-reverse;
   }
 
+.artikel3 {
+    flex-direction: row;
+  }
+
 .storykuva1{
-    border-radius: 50px;
+    border-radius: 30px;
     width: 53vh;
     height: 34vh;
     margin: 20px;
 }
 
 .storykuva3{
-    border-radius: 20px;
-    width: 40vh;
-    height: 60vh;
+    border-radius: 30px;
+    width: 34vh;
+    height: 50vh;
     margin: 20px;
 }
 
@@ -74,22 +79,11 @@ body {
     font-size: 24px;
 }
 
-.descriptionandstory1{
-    display: flex;
-    justify-content: flex-end;
-}
-
-
-.descriptionandstory2{
-    display: flex;
-    justify-content: flex-start;
-}
-
 
 .quote-bubble1 {
     display: inline-block;
-    background-color: #E98A45;
-    color: black;
+    background-color: rgb(22, 44, 145);
+    color: white;
     font-weight: lighter;
     font-size: 16px;
     padding: 50px 40px;
@@ -99,30 +93,16 @@ body {
     position: relative;
     font-family: Arial, sans-serif;
     line-height: 1.5;
+    font-style: italic;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
   }
 
-  .quote-bubble1::after {
-    content: '';
-    position: absolute;
-    top: 100%;
-    left: 20%;
-    width: 0;
-    height: 0;
-    border: 12px solid transparent;
-    border-top-color: #d97f36;
-  }
-
-
-
-.story2 {
-    align-self: flex-start;
-}
 
 .quote-bubble2 {
     display: inline-block;
-    padding: 20px 30px;
-    background-color: #d97f36;
-    color: black;
+    padding: 50px 40px;
+    background-color: rgb(22, 44, 145);
+    color: white;
     font-weight: lighter;
     font-size: 16px;
     border-radius: 999px;
@@ -131,25 +111,15 @@ body {
     position: relative;
     font-family: Arial, sans-serif;
     line-height: 1.5;
+    font-style: italic;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
   }
-
-  .quote-bubble2::after {
-    content: '';
-    position: absolute;
-    top: 100%;
-    left: 20%;
-    width: 0;
-    height: 0;
-    border: 12px solid transparent;
-    border-top-color: #d97f36;
-  }
-
 
 
   .quote-bubble3 {
     display: inline-block;
-    background-color: #E98A45;
-    color: black;
+    background-color: rgb(22, 44, 145);
+    color: white;
     font-weight: lighter;
     font-size: 16px;
     padding: 50px 40px;
@@ -159,19 +129,12 @@ body {
     position: relative;
     font-family: Arial, sans-serif;
     line-height: 1.5;
+    font-style: italic;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
 
   }
 
-  .quote-bubble3::after {
-    content: '';
-    position: absolute;
-    top: 100%;
-    left: 22%;
-    width: 0;
-    height: 0;
-    border: 12px solid transparent;
-    border-top-color: #d97f36;
-  }
+
 
 @media (max-width: 799px) {
 
