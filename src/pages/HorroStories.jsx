@@ -10,10 +10,9 @@ const HorrorStories = () => {
       <h1 className="storyheadline">
         Marjatta ja Anni jäivät arvontahuijauksen uhreiksi
       </h1>
-      <div className="stories-container">
-        <div className="descriptionandstory">
+        <div className="story-wrapper artikel1">
           <div className="story1-image-container">
-            <img className="storykuva" src={story1img} />
+            <img className="storykuva1" src={story1img} />
             <div className="quote-bubble1">
                 ”Se en ollut minä!” huudahdin, kun Anni soitti.<br />– Marjatta, 71 v.
             </div>
@@ -54,16 +53,15 @@ const HorrorStories = () => {
               haltuunsa hänen pankkitietonsa.
             </p>
           </div>
-        </div>
       </div>
       <div className="story2">
         <h1 className="storyheadline">
-          Onni menetti kymmeniä tuhansia euroja puhelinhuijauksessa.
+          Onni menetti kymmeniä tuhansia euroja puhelinhuijauksessa
         </h1>
 
-        <div className="descriptionandstory">
+        <div className="story-wrapper artikel2">
           <div className="story2-image-container">
-            <img className="storykuva" src={story2img} />
+            <img className="storykuva1" src={story2img} />
             <div className="quote-bubble2">
               Minun olisi pitänyt pitää kiireellistä tilannetta varoitusmerkkinä<br />– Onni, 84-v.
             </div>
@@ -108,9 +106,9 @@ const HorrorStories = () => {
         <h1 className="storyheadline">
           Tiina menetti säästönsä huijausviestin takia
         </h1>
-        <div className="descriptionandstory">
+        <div className="story-wrapper artikel3">
           <div className="story2-image-container">
-            <img className="storykuva" src={story3img} />
+            <img className="storykuva3" src={story3img} />
             <div className="quote-bubble3">
                 Menetin 3000 euroa ja ensimmäiset eläkematkasuunnitelmani.<br />– Tiina, 65-v.
             </div>
