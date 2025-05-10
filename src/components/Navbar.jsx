@@ -55,18 +55,21 @@ const Navbar = () => {
             <span></span>
           </div>
   
-        <div className={navLinksClass}>
-            <button onClick={scrollToTop} className="link-button">Etusivu</button>
-            <Link to="/peli" onClick={closeMenu}>Huijausviestin tunnistuspeli</Link>
-            <button onClick={()=> {
-              scrollToSection("checklist-title");
-              closeMenu();
-              }}className="link-button">Näin tunnistat hujausviestin</button>
-            <button onClick={()=>{
-              scrollToSection("tarinat");
-              closeMenu();
-              }}className="link-button">Tarinat</button>
-          </div>
+          <div className={navLinksClass}>
+                <button onClick={scrollToTop} className="link-button">Etusivu</button>
+              
+                <Link to="/peli" onClick={closeMenu}className="link-button">Huijausviestin tunnistuspeli</Link>
+              
+                <button onClick={()=> {
+                  scrollToSection("checklist-title");
+                  closeMenu();
+                  }}className="link-button">Näin tunnistat hujausviestin</button>
+              
+                <button onClick={()=>{
+                  scrollToSection("tarinat");
+                  closeMenu();
+                  }}className="link-button">Tarinat</button>
+           </div>
         </div>
       </div>
     );

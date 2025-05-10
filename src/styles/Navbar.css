@@ -34,6 +34,7 @@
   border-radius: 2px;
   transform-origin: center;
 }
+
 .burger:hover span {
     background-color: rgb(11, 31, 126);
     transform: scaleX(1.2);
@@ -41,32 +42,30 @@
   
 .nav-links {
     display: flex;
-    gap: 1rem;
+    align-items: center;
     font-family: 'Inter', sans-serif;
     font-weight: bold;
-    border-radius: 8px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.05); 
-}
-.nav-links a:last-child {
-    margin-bottom: 1rem;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+    
 }
 
 .link-button {
-  background: none;
-  border: none;
-  color: inherit;
-  font: inherit;
-  cursor: pointer;
-  text-decoration: none;
-  padding: 0;
-  display: inline;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+    text-decoration: none;               
+    
 }
 
 .link-button:hover {
   color:rgb(11, 31, 126);
   text-decoration: none;
   transform: scale(1.02);
-
 }
 
 a,
@@ -96,15 +95,20 @@ a:visited {
     pointer-events: none;
     z-index: 10;
 }
-.nav-links a {
+
+
+.nav-buttons {
   margin-right: 1.5rem;
   transition: color 0.3 ease, transform 0.3s ease;
   cursor: pointer;
 }
+
+
 .nav-links a:hover {
   color: rgb(11, 31, 126);
   transform: scale(1.02);
 }
+
 .logo a {
   display: inline-block;
   transition: transform 0.3s ease, color 0.3s ease;
