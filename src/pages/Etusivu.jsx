@@ -10,14 +10,22 @@ import handbild from "../pictures/handbild.png"
 import Checklist from "./Checklist.jsx"
 import { useNavigate } from 'react-router-dom';
 import Footer from "../components/Footer.jsx";
-
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
 
 const Etusivu = () => {
+    const location = useLocation();
+    useEffect(()=> {
+        if (location.state?.section) {
+            document.getElementById(location.state.section)?.scrollIntoView({behavior: "smooth"});
+        }
+    }, [location]);
 
     const [peli, setPeli] = useState(false)
     const [clicked, setClicked] = useState(false)
     const navigate = useNavigate();
+
         
         return(
             <div>
