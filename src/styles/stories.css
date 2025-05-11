@@ -18,6 +18,7 @@ body {
 .story-description {
     height: auto;
     max-width: 540px;
+    min-width: 400px;
     background-color: white;
     margin: 20px; 
     padding: 32px 24px;
@@ -96,7 +97,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.5;
     font-style: italic;
-    box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
   }
 
 
@@ -116,7 +117,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.5;
     font-style: italic;
-    box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
   }
 
 
@@ -136,7 +137,7 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.5;
     font-style: italic;
-    box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
   }
 
 @media (max-width: 600px){
@@ -176,7 +177,7 @@ body {
       }
 
     .storykuva3 {
-        width: 80%;
+        width: 100%;
         max-width: 400px;
         height: auto;
         border-radius: 30px;
@@ -193,6 +194,7 @@ body {
         font-size: 14px;
         line-height: 1.4;
         color: #333;
+        margin:0%;
       }
 
 
@@ -212,12 +214,12 @@ body {
         font-family: Arial, sans-serif;
         line-height: 1.5;
         font-style: italic;
-        box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+        box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
     }
 
 }
 
-@media  (min-width: 601px) and (max-width: 1024px) {
+@media (min-width: 601px) and (max-width: 1024px) {
 
    
 
@@ -257,7 +259,7 @@ body {
 
     .storykuva3 {
         width: 100%;
-        max-width: 400px;
+        max-width: 500px;
         height: auto;
         border-radius: 30px;
         margin: 0 auto;
@@ -272,6 +274,7 @@ body {
         font-size: 14px;
         line-height: 1.4;
         color: #333;
+        margin:0%;
       }
 
 
@@ -291,66 +294,11 @@ body {
         font-family: Arial, sans-serif;
         line-height: 1.5;
         font-style: italic;
-        box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
-    }
-
-}
-/*    .stories-container {
-      align-items: center;
-      justify-content: flex-start;
-      padding: 2vh;
-    }
-  
-    .story-wrapper {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 5vh;
-        position: relative;
-        gap: 2vw;
-        flex-direction: column;
-    }
-    
-    .storyheadline {
-      display: flex;
-      justify-content: center;
-      text-align: center;
-      width: 100%;
-      padding: 0 12px;
-      font-size: 18px;
-      margin: 1rem 0;
-    }
-  
-    .storykuva {
-      width: 100%;
-      max-width: 400px;
-      height: auto;
-      border-radius: 30px;
-      margin-bottom: 16px;
-    }
-  
-    .story-description {
-      width: 90%;
-      max-width: 380px;
-      background-color: white;
-      padding: 24px;
-      border-radius: 12px;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-      font-size: 14px;
-      line-height: 1.6;
-      color: #333;
+        box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
     }
 
 }
 
-    /* @media (max-width: 799px) {
-        .story-description {
-            width: 90%;
-            max-width: 380px;
-            padding: 24px;
-            font-size: 14px;
-        }
-    }
-  
-  
+@media (min-width: 1025px) and (max-width: 1400px)
+
   
