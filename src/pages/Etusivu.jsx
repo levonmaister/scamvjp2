@@ -49,7 +49,7 @@ const Etusivu = () => {
                 
                 </div>
 
-                <div className="checklistlayout">
+                <div id="checklist-title" className="checklistlayout">
                     <h2 className="checklist-title">ÄLÄ MENE LANKAAN <br /> Näin tunnistat huijausviestin:</h2>
                     <Checklist/>
                 </div>
@@ -57,7 +57,7 @@ const Etusivu = () => {
                 <div className="numerotLayout">
                     <NumerotValehtelee />
                 </div>
-                <div id="tarinat" className="storiesLayout">
+                <div id="tarinat" className="storieslayout">
                     <HorrorStories />
                 </div>
                 <Footer />
