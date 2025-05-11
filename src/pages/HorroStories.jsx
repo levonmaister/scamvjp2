@@ -7,9 +7,10 @@ import story3img from "../pictures/ensamkvinna_liten.png";
 const HorrorStories = () => {
   return (
     <div className="stories-container">
-      <h1 className="storyheadline">
-        Marjatta ja Anni jäivät arvontahuijauksen uhreiksi
-      </h1>
+      <div className="story1">
+        <h1 className="storyheadline">
+         Marjatta ja Anni jäivät arvontahuijauksen uhreiksi
+        </h1>
         <div className="story-wrapper artikel1">
           <div className="quote-bubble1">
               ”Se ei ollut minä!” huudahdin, kun Anni soitti.<br />– Marjatta, 71 v.
@@ -52,6 +53,7 @@ const HorrorStories = () => {
               haltuunsa hänen pankkitietonsa.
             </p>
           </div>
+        </div>
       </div>
       <div className="story2">
         <h1 className="storyheadline">
