@@ -33,6 +33,7 @@ html {
   transform: scale(1.05);
 }
 
+
 .clicked-button {
   width: 45vw;
   height: 6vh;
@@ -79,6 +80,16 @@ html {
   font-size: 24px;
   font-family: "Anton", sans-serif;
   text-align: center;
+}
+
+#checklist-title {
+  scroll-margin-top: 80px;
+
+}
+
+#tarinat {
+  scroll-margin-top: -100px;
+
 }
 
 h2 {
