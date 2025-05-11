@@ -43,8 +43,7 @@ const HorrorStories = () => {
               soitti, Marjatta kertoo.
               <br></br> <br></br>
               Lopulta he yhdessä ymmärsivät ikävän totuuden: Marjatan
-              Facebook-tili oli kaapattu. Kuusinumeroisten koodien avulla myös
-              useita Annin tiliä oli saatu haltuun.
+              Facebook-tili oli kaapattu.
               <br></br> <br></br>
               Anni ja Marjatta ilmoittivat asiasta poliisille ja pankille. Annia neuvottiin
               vaihtamaan salasanansa ja tekemään niistä
