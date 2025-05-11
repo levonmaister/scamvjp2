@@ -12,7 +12,7 @@ const HorrorStories = () => {
       </h1>
         <div className="story-wrapper artikel1">
           <div className="quote-bubble1">
-              ”Se en ollut minä!” huudahdin, kun Anni soitti.<br />– Marjatta, 71 v.
+              ”Se ei ollut minä!” huudahdin, kun Anni soitti.<br />– Marjatta, 71 v.
           </div>
           <div className="story1-image-container">
             <img className="storykuva1" src={story1img} />
