@@ -81,7 +81,7 @@ body {
 }
 
 
-.quote-bubble1 {
+/*.quote-bubble1 {
     display: inline-block;
     background-color: rgb(22, 44, 145);
     color: white;
@@ -138,8 +138,84 @@ body {
     line-height: 1.5;
     font-style: italic;
     box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
-  }
+  }*/
 
+.quote-bubble1,
+.quote-bubble2,
+.quote-bubble3 {
+    position: absolute;
+    background-color: rgb(22, 44, 145);
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    font-style: italic;
+    color: white;
+    font-weight: lighter;
+    font-size: 14px;
+    border-radius: 900px;
+    font-size: clamp(14px, 1.5vw, 20px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    z-index: 10;
+}
+
+.quote-bubble1 {
+    bottom: 35%;
+    left: 18%;
+    padding: 1em 2em;
+    max-width: 15vw;
+}
+
+
+.quote-bubble2 {
+    bottom: 40%;
+    left: 55%;
+    padding: 1em 2em;
+    max-width: 20vw;
+}
+
+.quote-bubble3 {
+    bottom: 1%;
+    left: 10%;
+    padding: 1.3em 2.5em;
+    max-width: 15vw;
+}
+
+
+/*.quote-bubble1,
+.quote-bubble2,
+.quote-bubble3 {
+    display: inline-block;
+    background-color: rgb(22, 44, 145);
+    color: white;
+    font-size: 1.6vw; /* Gör textstorleken responsiv 
+    padding: 4vw 3vw;
+    border-radius: 50vw; /* Gör dem alltid runda 
+    max-width: 20vw; /* Anpassar bubblans bredd 
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+    position: absolute;
+}
+
+/* Specifika positioneringar 
+.quote-bubble1 {
+    left: 30%; 
+    bottom: 35%;
+    transform: translate(-50%, 10%);
+}
+
+.quote-bubble2 {
+    right: 30%; 
+    bottom: 40%;
+    transform: translate(50%, 5%);
+}
+
+.quote-bubble3 {
+    left: 25%; 
+    bottom: 15%;
+    transform: translate(-50%, 5%);
+}
+*/
 @media (max-width: 600px){
 
     .stories-container {
@@ -178,7 +254,7 @@ body {
 
     .storykuva3 {
         width: 100%;
-        max-width: 400px;
+        max-width: 100px;
         height: auto;
         border-radius: 30px;
         margin-bottom: 16px;
@@ -188,6 +264,7 @@ body {
     .story-description {
         width: 80%;
         max-width: 400px;
+        min-width: 250px;
         background-color: white;
         padding: 20px;
         box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
@@ -299,8 +376,47 @@ body {
 
 }
 
-@media (min-width: 1025px) and (max-width: 1460px) {
+@media (min-width: 1024px) and (max-width: 1500px) {
+   
 
+    .quote-bubble1,
+    .quote-bubble2,
+    .quote-bubble3 {
+        position: absolute;
+        background-color: rgb(22, 44, 145);
+        font-family: Arial, sans-serif;
+        line-height: 1.5;
+        font-style: italic;
+        color: white;
+        font-weight: lighter;
+        font-size: 14px;
+        border-radius: 900px;
+        font-size: clamp(14px, 1.5vw, 20px);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        z-index: 10;
+    }
+
+    .quote-bubble1 {
+        bottom: 45%;
+        left: 18%;
+        padding: 1em 2em;
+        max-width: 18vw;
+    }
+
+    .quote-bubble2 {
+        position: absolute;
+        bottom: 50%;
+        left: 50%;
+        padding: 1em 2em;
+        max-width: 25vw;
+    }
+
+    .quote-bubble3 {
+        position: absolute;
+        bottom: 5%;
+        left: 10%;
+        padding: 1em 2.3em;
+        max-width: 15vw;
+    }
 }
 
-  
