@@ -40,8 +40,8 @@ body {
 }
 
 .quote-container {
-    display: grid;
-    grid-template-columns: 2;
+    display: flex;
+    flex-direction: column;
     gap: 30px;
     align-items: center;
     justify-content: center
@@ -56,6 +56,7 @@ body {
     font-style: italic;
     font-size: 15px;
     box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    margin-top: 2vh;
 }
 
 @media (min-width: 600px) {
@@ -78,12 +79,19 @@ body {
         font-size: 34px;
     }
     .bubbles-container {
-        grid-template-columns: repeat(4, minmax(200px, 1fr));
+        grid-template-columns: repeat(4, 20vw);
         margin-top: 5vh;
         max-width: 1200px;
         margin-left: auto;
         margin-right: auto;
         padding: 0 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .bubble {
+        width: 12vw;
+        align-self: center;
+        
     }
 }
 
@@ -99,12 +107,34 @@ body {
 
     .bubble {
         font-size: 40px;
+        width: 15vw;
+        max-width: 400px;
 
+    }
+    .bubbles-container {
+        grid-template-columns: repeat(4, 20vw);
     }
 
     .quote {
         font-size: 40px;
-        max-width: 900px;
+        max-width: 60vw;
+        
     }
 
+}
+
+@media (min-width: 3000px) {
+    .bubbles-container {
+        grid-template-columns: 4;
+        margin-top: 5vh;
+        width: 70vw;
+        margin-left: 30vw;
+        margin-right: 30vw;
+        padding: 0 20px;
+        
+    }
+    .bubble {
+        width: 30vw;
+        gap: 2vw;
+    }
 }
