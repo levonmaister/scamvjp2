@@ -69,8 +69,10 @@ const Etusivu = () => {
                 <div id="tarinat" className="storieslayout">
                     <HorrorStories />
                 </div> 
-
+                
+                        <div className='statistics-div'>
                 <FraudStats />
+                </div>
 
                 <Footer />
             </div>

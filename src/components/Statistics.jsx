@@ -23,7 +23,6 @@ const DonutChart = ({ value, color }) => {
           outerRadius={52}
           startAngle={90}
           endAngle={-270}
-          paddingAngle={0}
           dataKey="value"
         >
           {chartData.map((entry, index) => (
@@ -45,12 +44,14 @@ export default function FraudInfographic() {
         SUOMALASILTA HUIJATAAN YLI<br />60 MILJOONAA EUROA VUODESSA
       </h1>
 
+      {/* Horizontal on md+ and vertical on mobile */}
       <div className="flex flex-col md:flex-row items-center justify-center gap-10 mb-8">
         {data.map((item, index) => (
           <DonutChart key={index} value={item.value} color={item.color} />
         ))}
       </div>
 
+      {/* Labels */}
       <div className="max-w-md mx-auto text-sm md:text-base space-y-4">
         {data.map((item, index) => (
           <div key={index} className="flex items-center space-x-3">
