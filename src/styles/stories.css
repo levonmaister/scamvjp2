@@ -397,15 +397,15 @@ body {
     }
 
     .quote-bubble1 {
-        bottom: 45%;
-        left: 18%;
+        bottom: 50%;
+        left: 15%;
         padding: 1em 2em;
         max-width: 18vw;
     }
 
     .quote-bubble2 {
         position: absolute;
-        bottom: 50%;
+        bottom: 55%;
         left: 50%;
         padding: 1em 2em;
         max-width: 25vw;
