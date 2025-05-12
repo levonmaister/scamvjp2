@@ -230,9 +230,10 @@ h2 {
     width: 18vw;
     font-size: 50px;
     margin-top: 4vh;
+    height: 6vh;
   }
   .handbild-container img {
-    width: 26vw;
+    width: auto;
   }
   .layout {
     background: linear-gradient(165deg, #f0e9e2 50%, #E98A45 50%);
@@ -243,6 +244,12 @@ h2 {
 
   .checklist-title {
     font-size: 70px;
+  }
+}
+
+@media (min-width: 3000px) {
+  .rubrik {
+    font-size: 100px;
   }
 }
 
