@@ -1,88 +1,104 @@
-
-import { useState } from 'react';
-import { Link, useNavigate, useLocation } from 'react-router-dom'
-import "../styles/Navbar.css"
-import logo1 from '../pictures/LOGO.svg';
+import { useState } from "react";
+import { Link, useNavigate, useLocation } from "react-router-dom";
+import "../styles/Navbar.css";
+import logo1 from "../pictures/LOGO.svg";
 
 const Navbar = () => {
-    const [menuOpen, setMenuOpen] = useState(false);
-    const location = useLocation();
-    const navigate = useNavigate();
-    const toggleMenu = () => {
-        setMenuOpen(!menuOpen);
-    };
+  const [menuOpen, setMenuOpen] = useState(false);
+  const location = useLocation();
+  const navigate = useNavigate();
 
-    const closeMenu = () => {
-        setMenuOpen(false);
-    };
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
 
-    const scrollToTop =() => {
-      if (location.pathname==="/"){
-        window.scrollTo({top: 0, behavior: "smooth"});
-        closeMenu();
-      } else {
-        navigate("/", {state:{section:"top"}});
-        closeMenu();
-      }
-    };
+  const closeMenu = () => {
+    setMenuOpen(false);
+  };
 
-    const scrollToSection = (sectionID) => {
-      if (location.pathname !== "/") {
-        navigate("/", {state: {section: sectionID}});
-      } else {
-        document.getElementById(sectionID)?.scrollIntoView({behavior: "smooth"});
-      }
-    };
-
-    let burgerIconClass = "burger";
-    if (menuOpen) {
-      burgerIconClass += " open";
+  const scrollToTop = () => {
+    if (location.pathname === "/") {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+      closeMenu();
+    } else {
+      navigate("/", { state: { section: "top" } });
+      closeMenu();
     }
-    let navLinksClass = "nav-links";
-    if (menuOpen) {
-      navLinksClass += " active";
+  };
+
+  const scrollToSection = (sectionID) => {
+    if (location.pathname !== "/") {
+      navigate("/", { state: { section: sectionID } });
+    } else {
+      document
+        .getElementById(sectionID)
+        ?.scrollIntoView({ behavior: "smooth" });
     }
-  
-    return (
-      <div className="nav-wrapper">
-        <div className="nav-container">
-          <div className="logo">
-            <Link to="/ilmoitus" onClick={closeMenu}>Ilmoita huijaus tästä</Link>
-          </div>
+  };
 
-          <div className="align-right">
-            <div className="logo1-wrapper">
-              <img src={logo1} alt="logo" className="logo1-img" />
-            </div>
+  let burgerIconClass = "burger";
+  if (menuOpen) {
+    burgerIconClass += " open";
+  }
 
-            <div className={burgerIconClass} onClick={toggleMenu}>
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
+  let navLinksClass = "nav-links";
+  if (menuOpen) {
+    navLinksClass += " active";
+  }
+
+  return (
+    <div className="nav-wrapper">
+      <div className="nav-container">
+        <div className="logo">
+          <Link to="/ilmoitus" onClick={closeMenu}>
+            Ilmoita huijaus tästä
+          </Link>
+        </div>
+
+        <Link to="/" onClick={scrollToTop} className="logo1-wrapper">
+          <img src={logo1} alt="logo" className="logo1-img" />
+        </Link>
+
+        <div className="align-right">
+          <div className={burgerIconClass} onClick={toggleMenu}>
+            <span></span>
+            <span></span>
+            <span></span>
           </div>
-          
-  
-          
-  
-          <div className={navLinksClass}>
-                <button onClick={scrollToTop} className="link-button">Etusivu</button>
-              
-                <Link to="/peli" onClick={closeMenu}className="link-button">Huijausviestin tunnistuspeli</Link>
-              
-                <button onClick={()=> {
-                  scrollToSection("checklist-title");
-                  closeMenu();
-                  }}className="link-button">Näin tunnistat hujausviestin</button>
-              
-                <button onClick={()=>{
-                  scrollToSection("tarinat");
-                  closeMenu();
-                  }}className="link-button">Tarinat</button>
-           </div>
+        </div>
+
+        <div className={navLinksClass}>
+          <button onClick={scrollToTop} className="link-button">
+            Etusivu
+          </button>
+
+          <Link to="/peli" onClick={closeMenu} className="link-button">
+            Huijausviestin tunnistuspeli
+          </Link>
+
+          <button
+            onClick={() => {
+              scrollToSection("checklist-title");
+              closeMenu();
+            }}
+            className="link-button"
+          >
+            Näin tunnistat huijausviestin
+          </button>
+
+          <button
+            onClick={() => {
+              scrollToSection("tarinat");
+              closeMenu();
+            }}
+            className="link-button"
+          >
+            Tarinat
+          </button>
         </div>
       </div>
-    );
-  };
-  
-  export default Navbar;
+    </div>
+  );
+};
+
+export default Navbar;
