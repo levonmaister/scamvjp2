@@ -38,6 +38,7 @@
   max-width: 90vw;
   margin: 0 auto;
 }
+
 .phone-frame {
   width: 100%;
   display: block;
@@ -45,6 +46,8 @@
   pointer-events: none;
   z-index: 20;
 }
+
+
 .screen {
   position: absolute;
   top: 1.5%;
@@ -60,6 +63,8 @@
   z-index: 10;
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
+
+
 .chat-content {
   flex: 1;
   overflow-y: auto;
@@ -86,6 +91,7 @@
   font-weight: normal;
   box-sizing: border-box;
 }
+
 .feedback-wrapper {
   margin-bottom: 12px;
   display: flex;
@@ -195,5 +201,8 @@
   }
   .bubble.left {
     padding: 16px;
+    font-size: 20px;
   }
+
+
 }
