@@ -16,7 +16,7 @@ const HorrorStories = () => {
               ”Se ei ollut minä!” huudahdin, kun Anni soitti.<br />– Marjatta, 71 v.
           </div>
           <div className="story1-image-container">
-            <img className="storykuva1" src={story1img} />
+            <img className="storykuva1" src={story1img} alt="Marjatta, 71-v. ja Anni, 72-v." />
           </div>
           <div className="story-description">
             <p>
@@ -65,7 +65,7 @@ const HorrorStories = () => {
               Minun olisi pitänyt pitää kiireellistä tilannetta varoitusmerkkinä.<br />– Onni, 84-v.
           </div>
           <div className="story2-image-container">
-            <img className="storykuva1" src={story2img} />
+            <img className="storykuva1" src={story2img} alt="Onni, 84-v." />
           </div>
           <div className="story-description">
             <p>
@@ -112,7 +112,7 @@ const HorrorStories = () => {
                 Menetin 3000 euroa ja ensimmäiset eläkematkasuunnitelmani.<br />– Tiina, 65-v.
           </div>
           <div className="story2-image-container">
-            <img className="storykuva3" src={story3img} />
+            <img className="storykuva3" src={story3img} alt="Tiina, 65-v." />
           </div>
           <div className="story-description">
             <p>

@@ -44,7 +44,7 @@ const Etusivu = () => {
                     >Pelaa peliä</button>
 
                     <div className="handbild-container">
-                        <img src={handbild} alt="puhelinkadessa" />
+                        <img src={handbild} alt="puhelin kadessa" />
                     </div>
                 
                 </div>
