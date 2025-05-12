@@ -29,12 +29,13 @@ Statistik med hjälp av rechart bibliotek och tailwindd - 0.5h
 TOT ≈ 19h
 
 
-Emelie arbete:
+Emelie:
 
-Små språkändringar, navbar till en global komponent.
+pieniä kielimuutoksia, navbar globaaliski komponentiski.
 Peli.jsx, peli.css, peliScript.js - 8h
-Etusivu.css (bakgrunden), pelinappi, divs till huijausstories- 2h 
+Etusivu.css (tausta), pelinappi, divs huijaustarnoille- 2h 
 Puhelinkäsikuva etusivulle, responsiivisuutta - 3h
 Numerot.css responsiivisuutta - 2h
-Responsiivisuutta pelissä ja etusivulla (små ändringar textstorlek etc) - 5h
-tot ≈ 20h
+Responsiivisuutta pelissä ja etusivulla (font-size yms) - 5h
+responsiivisuutta suurille nnäytöille tarinoille - 1h
+tot ≈ 21h
