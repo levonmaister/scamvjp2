@@ -1,4 +1,6 @@
 import { PieChart, Pie, Cell } from 'recharts';
+import { useEffect, useRef, useState } from 'react';
+
 
 const data = [
   { value: 51, color: '#16255D', label: 'TIETOJENKALASTELUHUIJAUKSET' },
@@ -6,61 +8,99 @@ const data = [
   { value: 17, color: '#6FE3EB', label: 'DOKUMENTTI-, RAKKAUS-, SEKÄ TOIMITUSJOHTAJAHUIJAUKSET' },
 ];
 
+
+
 const DonutChart = ({ value, color, label }) => {
-    const chartData = [
-      { name: 'Shown', value },
-      { name: 'Hidden', value: 100 - value },
-    ];
-  
-    return (
-      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', maxWidth: '200px', margin: '20px' }}>
-        <div style={{ position: 'relative', width: '160px', height: '160px' }}>
-          <PieChart width={160} height={160}>
-            <Pie
-              data={chartData}
-              cx="50%"
-              cy="50%"
-              innerRadius={50}
-              outerRadius={75}
-              startAngle={90}
-              endAngle={-270}
-              dataKey="value"
-            >
-              {chartData.map((entry, index) => (
-                <Cell key={`cell-${index}`} fill={index === 0 ? color : '#000'} />
-              ))}
-            </Pie>
-          </PieChart>
-          <div
-            style={{
-              position: 'absolute',
-              top: '50%',
-              left: '50%',
-              transform: 'translate(-50%, -50%)',
-              fontSize: '1.8rem',
-              fontWeight: '600',
-              color: color,
-              whiteSpace: 'nowrap'
-            }}
+  const [isVisible, setIsVisible] = useState(false);
+  const chartRef = useRef(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+          observer.disconnect();
+        }
+      },
+      { threshold: 0.4 }
+    );
+
+    if (chartRef.current) {
+      observer.observe(chartRef.current);
+    }
+
+    return () => {
+      if (chartRef.current) observer.unobserve(chartRef.current);
+    };
+  }, []);
+
+  const chartData = [
+    { name: 'Shown', value: isVisible ? value : 0 },
+    { name: 'Hidden', value: 100 - value },
+  ];
+
+  return (
+    <div
+      ref={chartRef}
+      style={{
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        maxWidth: '200px',
+        margin: '20px',
+        transition: 'all 0.3s ease-in-out',
+      }}
+    >
+      <div style={{ position: 'relative', width: '160px', height: '160px' }}>
+        <PieChart width={160} height={160}>
+          <Pie
+            data={chartData}
+            cx="50%"
+            cy="50%"
+            innerRadius={50}
+            outerRadius={75}
+            startAngle={90}
+            endAngle={-270}
+            dataKey="value"
+            isAnimationActive={isVisible}
           >
-            {value}%
-          </div>
+            {chartData.map((entry, index) => (
+              <Cell key={`cell-${index}`} fill={index === 0 ? color : '#000'} />
+            ))}
+          </Pie>
+        </PieChart>
+        <div
+          style={{
+            position: 'absolute',
+            top: '50%',
+            left: '50%',
+            transform: 'translate(-50%, -50%)',
+            fontSize: '1.8rem',
+            fontWeight: '600',
+            color: color,
+            whiteSpace: 'nowrap',
+          }}
+        >
+          {value}%
         </div>
-        <div style={{
+      </div>
+      <div
+        style={{
           marginTop: '16px',
           textAlign: 'center',
           color: color,
           fontWeight: '600',
           fontSize: '0.85rem',
           lineHeight: '1.3',
-        }}>
-          {label}
-        </div>
+        }}
+      >
+        {label}
       </div>
-    );
-  };
-  
-  
+    </div>
+  );
+};
+
+
 
 export default function FraudInfographic() {
   return (
