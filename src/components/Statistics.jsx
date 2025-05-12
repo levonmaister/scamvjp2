@@ -7,44 +7,60 @@ const data = [
 ];
 
 const DonutChart = ({ value, color, label }) => {
-  const chartData = [
-    { name: 'Shown', value },
-    { name: 'Hidden', value: 100 - value },
-  ];
-
-  return (
-    <div className="flex flex-col items-center text-center max-w-[10rem]">
-      <div className="relative w-24 h-24 md:w-28 md:h-28">
-        <PieChart width={112} height={112}>
-          <Pie
-            data={chartData}
-            cx="50%"
-            cy="50%"
-            innerRadius={34}
-            outerRadius={52}
-            startAngle={90}
-            endAngle={-270}
-            dataKey="value"
+    const chartData = [
+      { name: 'Shown', value },
+      { name: 'Hidden', value: 100 - value },
+    ];
+  
+    return (
+      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', maxWidth: '200px', margin: '20px' }}>
+        <div style={{ position: 'relative', width: '160px', height: '160px' }}>
+          <PieChart width={160} height={160}>
+            <Pie
+              data={chartData}
+              cx="50%"
+              cy="50%"
+              innerRadius={50}
+              outerRadius={75}
+              startAngle={90}
+              endAngle={-270}
+              dataKey="value"
+            >
+              {chartData.map((entry, index) => (
+                <Cell key={`cell-${index}`} fill={index === 0 ? color : '#000'} />
+              ))}
+            </Pie>
+          </PieChart>
+          <div
+            style={{
+              position: 'absolute',
+              top: '50%',
+              left: '50%',
+              transform: 'translate(-50%, -50%)',
+              fontSize: '1.8rem',
+              fontWeight: '600',
+              color: color,
+              whiteSpace: 'nowrap'
+            }}
           >
-            {chartData.map((entry, index) => (
-              <Cell key={`cell-${index}`} fill={index === 0 ? color : '#000'} />
-            ))}
-          </Pie>
-        </PieChart>
-        <div
-          className="absolute inset-0 flex items-center justify-center text-xl md:text-2xl font-semibold"
-          style={{ color }}
-        >
-          {value}%
+            {value}%
+          </div>
+        </div>
+        <div style={{
+          marginTop: '16px',
+          textAlign: 'center',
+          color: color,
+          fontWeight: '600',
+          fontSize: '0.85rem',
+          lineHeight: '1.3',
+        }}>
+          {label}
         </div>
       </div>
-      {/* Colored label text */}
-      <div className="mt-3 text-sm font-medium" style={{ color }}>
-        {label}
-      </div>
-    </div>
-  );
-};
+    );
+  };
+  
+  
 
 export default function FraudInfographic() {
   return (
