@@ -250,13 +250,13 @@ h2 {
   justify-content: center;
   margin-top: 5vh;
 
-  /* New styles for the white rounded box */
+  
   background-color: white;
   padding: 40px 20px;
   border-radius: 20px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   max-width: 1000px;
-  width: 90%;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
 }
