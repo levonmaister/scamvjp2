@@ -517,14 +517,14 @@ body {
 
     .quote-bubble1 {
         bottom: 40%;
-        left: 30%;
+        
         padding: 1em 2em;
         max-width: 18vw;
     }
 
     .quote-bubble2 {
         bottom: 40%;
-        left: 50%;
+        left: 55%;
         padding: 1em 2em;
         max-width: 25vw;
     }
