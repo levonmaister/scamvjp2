@@ -72,6 +72,17 @@ html {
   overflow: hidden;
 }
 
+.statistik-container {
+  display: flex;
+  justify-content: center;
+  background-color: #f0e9e2;
+  overflow: hidden;
+}
+
+.statistik-container img {
+  height: 60vh;
+}
+
 .handbild-container img {
   height: 30vh;
 }
@@ -96,6 +107,12 @@ h2 {
   margin-left: 2%;
 }
 
+@media (min-width: 320px) {
+  .statistik-container img {
+    height: 25vh;
+  }
+}
+
 @media (min-width: 375px) {
 
   .rubrik {
@@ -103,6 +120,9 @@ h2 {
   }
   .text {
     max-width: 60vw;
+  }
+  .statistik-container img {
+    height: 30vh;
   }
 }
 
@@ -150,7 +170,9 @@ h2 {
   .checklist-title {
     font-size: 30px;
   }
-
+  .statistik-container img {
+    height: 40vh;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -215,7 +237,9 @@ h2 {
   .layout {
     background: linear-gradient(165deg, #f0e9e2 50%, #E98A45 50%);
   }
-
+  .statistik-container img {
+    height: 80vh;
+  }
 }
 
 

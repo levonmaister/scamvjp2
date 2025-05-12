@@ -7,6 +7,7 @@ import '../styles/etusivu.css';
 import NumerotValehtelee from './NumerotValehtelee.jsx';
 import HorrorStories from './HorroStories.jsx';
 import handbild from "../pictures/handbild.png"
+import statistik from "../pictures/Suomalaiset.png";
 import Checklist from "./Checklist.jsx"
 import { useNavigate } from 'react-router-dom';
 import Footer from "../components/Footer.jsx";
@@ -57,9 +58,14 @@ const Etusivu = () => {
                 <div className="numerotLayout">
                     <NumerotValehtelee />
                 </div>
+
+                <div className="statistik-container">
+                <img src={statistik} alt="Stats" />
+                </div>
+
                 <div id="tarinat" className="storieslayout">
                     <HorrorStories />
-                </div>
+                </div> 
                 <Footer />
             </div>
             
