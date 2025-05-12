@@ -8,26 +8,25 @@ import NumerotValehtelee from './NumerotValehtelee.jsx';
 import HorrorStories from './HorroStories.jsx';
 import handbild from "../pictures/handbild.png"
 import Checklist from "./Checklist.jsx"
+import { useNavigate } from 'react-router-dom';
+import Footer from "../components/Footer.jsx";
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
 
 const Etusivu = () => {
+    const location = useLocation();
+    useEffect(()=> {
+        if (location.state?.section) {
+            document.getElementById(location.state.section)?.scrollIntoView({behavior: "smooth"});
+        }
+    }, [location]);
 
     const [peli, setPeli] = useState(false)
     const [clicked, setClicked] = useState(false)
+    const navigate = useNavigate();
 
-    if(peli){
-        return(
-            <div>
-                <button onClick={()=> {
-                    setPeli(false); 
-                    setClicked(false);
-                    }}
-                    className={clicked ? 'clicked-button' : 'default-button'}
-                >Lopeta peli </button>
-                <ViestiPeli />
-            </div>
-        );
-    } else {
+        
         return(
             <div>
                 <div className="layout">
@@ -39,8 +38,7 @@ const Etusivu = () => {
                     </div>
 
                     <button onClick={()=>{
-                        setPeli(true);
-                        setClicked(true)
+                        navigate('/peli');
                         }}
                         className={clicked ? 'clicked-button' : 'default-button'}
                     >Pelaa peliä</button>
@@ -51,22 +49,23 @@ const Etusivu = () => {
                 
                 </div>
 
-                <div className="checklistlayout">
-                    <h2 id="checklist-title">Älä mene lankaan - näin tunnistat huijausviestin!</h2>
+                <div id="checklist-title" className="checklistlayout">
+                    <h2 className="checklist-title">ÄLÄ MENE LANKAAN <br /> Näin tunnistat huijausviestin:</h2>
                     <Checklist/>
                 </div>
 
                 <div className="numerotLayout">
                     <NumerotValehtelee />
                 </div>
-                <div id="tarinat" className="storiesLayout">
+                <div id="tarinat" className="storieslayout">
                     <HorrorStories />
                 </div>
+                <Footer />
             </div>
+            
         );
     }
 
-};
 
 
 

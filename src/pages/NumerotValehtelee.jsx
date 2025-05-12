@@ -4,9 +4,8 @@ import '../styles/numerotvalehtelee.css';
 const NumerotValehtelee = () => {
   return (
     <div className="numerot-wrapper">
-      <h1 className="main-title">NUMEROT EIVÄT VALEHTELE</h1>
-      <p className="subtitle">Klicka på ruta för mer info + källa</p>
-
+      <h2 className="main-title">NUMEROT EIVÄT VALEHTELE</h2>
+      
       <div className="bubbles-container">
         <div className="bubble">30% suomalaisista on joutunut pulaan huijausten takia vuodesta 2010 lähtien</div>
         <div className="bubble">60% suomalaisista ei tiedä mitä pitää tehdä, jos joutuu huijauksen uhriksi</div>

@@ -9,7 +9,7 @@ export const script = [
     },
     {
       sender: "PostNord", 
-      message: "Lähetyksesi on matkalla! Seuraa lähetystäsi: https://postnord/seuraalahetysta.com ",
+      message: "Lähetyksesi on matkalla! Seuraa lähetystäsi: postnord/seuraa.com ",
       options: [
         { answer: "Huijaus", correct: false }, 
         { answer: "Aito", correct: true }
@@ -17,7 +17,7 @@ export const script = [
     },
     {
       sender: "DHL",
-      message: "Hei! Sinulle on tullut lähetys EU:n ulkopuolelta, joka odottaa tullausta. Tullaa lähetys viimeistään 27.6.2025. Lähettäjä: Peak Performance. Tunnus: LR97462648926NL. Tullauksen voi hoitaa Tullin verkkosivuilla (Postin käsittelymaksu 3,10€). Katso ohje Tullin sivuilla tullaamiseen: https://jakelu.posti.fi/#/cd/LR97462648926NL=DjFI=fi",
+      message: "Sinulle on tullut lähetys, joka odottaa tullausta. Tullaa lähetys viimeistään 27.6.2025. Lähettäjä: Zalando. Tunnus: LR974626NL. Ohje tullaamiseen: jakelu.posti.fi",
       options: [
         { answer: "Huijaus", correct: false }, 
         { answer: "Aito", correct: true }
@@ -47,4 +47,28 @@ export const script = [
         { answer: "Aito", correct: false }
         ],
     },
+    {
+      sender: "omaolo",
+      message: "Hei! Sinulle on uusi viesti Omaolossa. Voit lukea viestin, kun kirjaudut verkossa Omaolo-palveluun.",
+      options: [
+        { answer: "Huijaus", correct: false },
+        { answer: "Aito", correct: true }
+      ],
+    },
+    {
+      sender: "vip",
+      message: "20 FREE SPINS! Join Cobra Casino’s Christmas Fest now and celebrate BIG! www.cobracasino christmasfestNow.com",
+      options: [
+        { answer: "Huijaus", correct: true },
+        { answer: "Aito", correct: false }
+      ],
+    },
+    {
+      sender: "+358 40 125 0664",
+      message: "Tämä on viimeinen ilmoitus, veroviranomaiset ovat lähettäneet sinulle verojasi koskevan viestin. Siirry osoitteeseen vero-viesti.com ja toimi. Terveisin Vero-fi",
+      options: [
+        { answer: "Huijaus", correct: true },
+        { answer: "Aito", correct: false }
+      ],
+    }
 ];

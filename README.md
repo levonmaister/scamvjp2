@@ -10,3 +10,30 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+Figma: https://www.figma.com/design/w3DVtkY8Ivewy33Pt0UR6l/VJP-VDM?node-id=0-1&t=dX0BmlmdfSkZw99h-1 
+
+
+Levon arbete:
+
+
+Skapade repository samt projekt - 3h
+Lade grunden för Ilmoitus, Navbar, Etusivu, Peli och Routes: 4h
+Ilmoitus sivu och dropzone(problem med drag and drop) - 5h
+Numerotvalehtelee början - 2h
+Horrostories struktur startad + första storyn - 2h
+Debugging Horrostory merge problem - 1h
+Horrostory display-flex, responsivisuus + mobile 2h
+TOT ≈ 19h
+
+
+Emelie arbete:
+
+Små språkändringar, navbar till en global komponent.
+Peli.jsx, peli.css, peliScript.js - 8h
+Etusivu.css (bakgrunden), pelinappi, divs till huijausstories- 2h 
+Puhelinkäsikuva etusivulle, responsiivisuutta - 3h
+Numerot.css responsiivisuutta - 2h
+Responsiivisuutta pelissä ja etusivulla (små ändringar textstorlek etc) - 5h
+tot ≈ 20h

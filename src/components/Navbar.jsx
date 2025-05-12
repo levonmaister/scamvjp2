@@ -1,17 +1,36 @@
 
 import { useState } from 'react';
-import { Link, useLocation } from 'react-router-dom'
+import { Link, useNavigate, useLocation } from 'react-router-dom'
 import "../styles/Navbar.css"
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
     const location = useLocation();
+    const navigate = useNavigate();
     const toggleMenu = () => {
         setMenuOpen(!menuOpen);
     };
 
     const closeMenu = () => {
         setMenuOpen(false);
+    };
+
+    const scrollToTop =() => {
+      if (location.pathname==="/"){
+        window.scrollTo({top: 0, behavior: "smooth"});
+        closeMenu();
+      } else {
+        navigate("/", {state:{section:"top"}});
+        closeMenu();
+      }
+    };
+
+    const scrollToSection = (sectionID) => {
+      if (location.pathname !== "/") {
+        navigate("/", {state: {section: sectionID}});
+      } else {
+        document.getElementById(sectionID)?.scrollIntoView({behavior: "smooth"});
+      }
     };
 
     let burgerIconClass = "burger";
@@ -36,17 +55,21 @@ const Navbar = () => {
             <span></span>
           </div>
   
-        <div className={navLinksClass}>
-          {location.pathname === "/" ? (
-            <a href="#top" onClick={closeMenu}>Etusivu</a>
-                  ) : (
-                    <Link to="/" onClick={closeMenu}>Etusivu</Link>
-                  )}
-            <Link to="/peli" onClick={closeMenu}>Hujausviestin tunnistuspeli</Link>
-            <a href="#checklist-title" onClick={closeMenu}>Näin tunnistat hujausviestin</a>
-            <a href="#tarinat" onClick={closeMenu}>Tarinat</a>
-
-          </div>
+          <div className={navLinksClass}>
+                <button onClick={scrollToTop} className="link-button">Etusivu</button>
+              
+                <Link to="/peli" onClick={closeMenu}className="link-button">Huijausviestin tunnistuspeli</Link>
+              
+                <button onClick={()=> {
+                  scrollToSection("checklist-title");
+                  closeMenu();
+                  }}className="link-button">Näin tunnistat hujausviestin</button>
+              
+                <button onClick={()=>{
+                  scrollToSection("tarinat");
+                  closeMenu();
+                  }}className="link-button">Tarinat</button>
+           </div>
         </div>
       </div>
     );

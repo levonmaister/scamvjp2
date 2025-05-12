@@ -17,8 +17,8 @@ html {
 }
 
 .default-button {
-  width: 30vw;
-  height: 10vh;
+  width: 50vw;
+  height: 50px;
   border-radius: 30px;
   background-color: rgb(11, 31, 126);
   color: white;
@@ -26,32 +26,43 @@ html {
   margin-top: 5%;
   font-family: "Anton", sans-serif;
   align-self: center;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+.default-button:hover {
+  background-color: rgb(22, 44, 145);
+  transform: scale(1.05);
 }
 
+
 .clicked-button {
-  width: 30vw;
+  width: 45vw;
   height: 6vh;
   border-radius: 20px;
   background-color: rgb(11, 31, 126);
   color: white;
-  font-size: 20px;
+  font-size: 16px;
   margin-top: 5%;
   margin-left: 5%;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+.clicked-button:hover {
+  background-color: rgb(22, 44, 145);
+  transform: scale(1.03);
 }
 
 .rubrik {
   text-align: left;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 24px;
   gap: 1%;
   text-align: left;
-  margin-left: 5%;
+  margin-left: 3%;
 }
 
 .text {
-  font-size: 18px;
+  font-size: 16px;
   max-width: 50vw;
-  margin-left: 5%;
+  margin-left: 3%;
 }
 
 .handbild-container {
@@ -62,10 +73,44 @@ html {
 }
 
 .handbild-container img {
-  width: 280px;
+  height: 30vh;
 }
 
+.checklist-title {
+  font-size: 24px;
+  font-family: "Anton", sans-serif;
+  text-align: center;
+}
 
+#checklist-title {
+  scroll-margin-top: 80px;
+
+}
+
+#tarinat {
+  scroll-margin-top: -100px;
+
+}
+
+h2 {
+  margin-left: 2%;
+}
+
+@media (min-width: 375px) {
+
+  .rubrik {
+    font-size: 28px;
+  }
+  .text {
+    max-width: 60vw;
+  }
+}
+
+@media (min-width: 414px) {
+  .text {
+    font-size: 18px;
+  }
+}
 
 @media (min-width: 600px) {
 
@@ -74,48 +119,105 @@ html {
   }
 
   .rubrik {
-    font-size: 40px;
+    font-size: 46px;
   }
 
   .text {
-    font-size: 22px;
+    font-size: 24px;
     max-width: 70vw;
   }
 
   .default-button {
-    width: 20vw;
+    width: 30vw;
     margin-top: 2%;
-    align-self: auto;
-    margin-left: 5vw;
+    align-self: center;
+    height: 60px;
+    font-size: 24px;
+    margin-top: 8vh;
   }
 
   .clicked-button {
-    width: 24vw;
+    width: 26vw;
+    font-size: 28px;
   }
   #checklist-title {
     text-align: center;
   }
 
+  .handbild-container img {
+    height: 40vh;
+  }
+  .checklist-title {
+    font-size: 30px;
+  }
+
 }
 
+@media (min-width: 1024px) {
+  .rubrik {
+    font-size: 48px;
+    padding-bottom: 0;
+    
+  }
+  .text {
+    font-size: 24px;
+    max-width: 40vw;
+  
+  }
+  .default-button {
+    font-size: 30px;
+    height: 70px;
+    width: 25vw;
+    margin-top: 2vh;
+  }
 
+  .checklist-title {
+    font-size: 34px;
+  }
 
-@media (max-width: 600px) {
-  .handbild-container img{
-    max-width: 240px;
+}
+
+@media (min-width: 1200px) {
+  .rubrik {
+    font-size: 50px;
+  }
+
+  .text {
+    font-size: 28px;
+  }
+
+  .default-button {
+    margin-top: 4vh;
+  }
+
+  .handbild-container img {
+    height: 50vh;
   }
 }
 
-@media (max-width: 400px) {
-.handbild-container img {
-  width: 160px;
+
+
+@media (min-width: 2000px) {
+  .rubrik {
+    font-size: 74px;
+  }
+  .text {
+    font-size: 50px;
+  }
+  .default-button {
+    width: 18vw;
+    font-size: 50px;
+    margin-top: 4vh;
+  }
+  .handbild-container img {
+    width: 26vw;
+  }
+  .layout {
+    background: linear-gradient(165deg, #f0e9e2 50%, #E98A45 50%);
+  }
+
 }
-.default-button{
-  width: 50%;
-}
-.text{
-  max-width: 80%;
-}
-}
+
+
 
   

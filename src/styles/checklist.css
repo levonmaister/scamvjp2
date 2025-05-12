@@ -1,3 +1,10 @@
+
+
+body {
+  background: #E98A45;
+}
+
+
 .checklist-wrapper {
     margin: 4vh 2vw;
     display: flex;
@@ -12,14 +19,15 @@
     cursor: pointer;
     transition: background-color 0.2s ease;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    margin: 1vh;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
   }
   
   .checklist-item:hover {
     background-color: #eeeeee;
   }
   
- 
-  
+
   .item-description {
     margin-top: 1.8rem;
     padding-left: 2.2rem;
