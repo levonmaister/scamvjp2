@@ -53,9 +53,9 @@ const Etusivu = () => {
                 </div>
 
 
-                <h1 className="text-2xl md:text-4xl font-bold text-center mb-10 leading-snug tracking-wide">
+                <h2 className="checklist-title">
         SUOMALASILTA HUIJATAAN YLI<br />60 MILJOONAA EUROA VUODESSA
-      </h1>
+      </h2>
 
                 <div className='statistics-div'>
                 <FraudStats />
