@@ -70,6 +70,14 @@ Alustava footer ja sen linkit - 1h
 Navbarin responsiivisuus - 2h
 
 
+Valter:
+Första bakrungdernas sträcksaker (myöhemmin poistettu käytöstä) - 2h
+Statistik delen(muunnettu myöhemmin valmiiksi komponentiksi) - 2h
+Bilders storleks optimering - 1h
+Fixat på färger samt storlekar av texter och komponenter - 2h
+Inte i själva koden men fixat mailaddress, instagram, facebook och gjort posts dit - 3h
+Fixat små fel som hittat (responsivitet, positionering etc.)- 2h
+
 
 
 Millaista työnjaon tekeminen oli? Oliko helppoa jakaa työ tehtäviin palasiin ryhmäläisten kesken?
