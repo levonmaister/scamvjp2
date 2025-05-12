@@ -16,7 +16,7 @@ const HorrorStories = () => {
               ”Se ei ollut minä!” huudahdin, kun Anni soitti.<br />– Marjatta, 71 v.
           </div>
           <div className="story1-image-container">
-            <img className="storykuva1" src={story1img} alt="Marjatta, 71-v. ja Anni, 72-v." />
+            <img className="storykuva1" src={story1img} alt="Marjatta, 71 v. ja Anni, 72 v." />
           </div>
           <div className="story-description">
             <p>
@@ -62,10 +62,10 @@ const HorrorStories = () => {
 
         <div className="story-wrapper artikel2">
           <div className="quote-bubble2">
-              Minun olisi pitänyt pitää kiireellistä tilannetta varoitusmerkkinä.<br />– Onni, 84-v.
+              Minun olisi pitänyt pitää kiireellistä tilannetta varoitusmerkkinä.<br />– Onni, 84 v.
           </div>
           <div className="story2-image-container">
-            <img className="storykuva1" src={story2img} alt="Onni, 84-v." />
+            <img className="storykuva1" src={story2img} alt="Onni, 84 v." />
           </div>
           <div className="story-description">
             <p>
@@ -109,10 +109,10 @@ const HorrorStories = () => {
         </h1>
         <div className="story-wrapper artikel3">
           <div className="quote-bubble3">
-                Menetin 3000 euroa ja ensimmäiset eläkematkasuunnitelmani.<br />– Tiina, 65-v.
+                Menetin 3000 euroa ja ensimmäiset eläkematkasuunnitelmani.<br />– Tiina, 65 v.
           </div>
           <div className="story2-image-container">
-            <img className="storykuva3" src={story3img} alt="Tiina, 65-v." />
+            <img className="storykuva3" src={story3img} alt="Tiina, 65 v." />
           </div>
           <div className="story-description">
             <p>
