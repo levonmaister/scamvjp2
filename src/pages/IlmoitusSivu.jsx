@@ -16,12 +16,7 @@ const IlmoitusSivu = () => {
 
 
 
-    // a form where people who want to report a scam can fill in their information
-    // name
-    // email
-    // phone number
-    // description of the scam
-    // file upload
+
 
     return(
         <div>
