@@ -35,3 +35,9 @@ body {
     color: #333;
     line-height: 1.4;
   }
+
+  @media (min-width: 2600px) {
+    .checkmark-title {
+      font-size: 30px;
+    }
+  }

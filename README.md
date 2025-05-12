@@ -29,12 +29,44 @@ Statistik med hjälp av rechart bibliotek och tailwindd - 0.5h
 TOT ≈ 19h
 
 
-Emelie arbete:
+Emelie:
 
-Små språkändringar, navbar till en global komponent.
+pieniä kielimuutoksia, navbar globaaliski komponentiski.
 Peli.jsx, peli.css, peliScript.js - 8h
-Etusivu.css (bakgrunden), pelinappi, divs till huijausstories- 2h 
+Etusivu.css (tausta), pelinappi, divs huijaustarnoille- 2h 
 Puhelinkäsikuva etusivulle, responsiivisuutta - 3h
 Numerot.css responsiivisuutta - 2h
-Responsiivisuutta pelissä ja etusivulla (små ändringar textstorlek etc) - 5h
-tot ≈ 20h
+Responsiivisuutta pelissä ja etusivulla (font-size yms) - 5h
+responsiivisuutta suurille nnäytöille tarinat ja footer - 1h
+tot ≈ 21h
+
+
+Elvira arbete:
+
+Navbar länkar. Gjorde både så att de scrollar ner från "etusivu" till rätt sektion men också så att de scrollar ner till rätt sektion om man är på en annan sida än "etusivu". Till exempel kan man klicka på "tarina" från spelets sida och ändå komma rätt. 4h
+Navbar CSS. 1h
+Små grejer i CSS, som till exempel font och fontstorlek på alla sidor. 1h
+Artikel CSS + responsivitet, pratbubblorna och positioneringen tog länge. 8h
+Responsivitet på andra ställen. 1h.
+Figma 3h.
+Totalt: 18h
+
+
+
+Vaatimukset:
+Palautuksen tulee sisältää linkki projektin Github repoon
+
+Palautuksen tulee sisältää Figma-tiedosto, joka sisältää sekä moodboardin sekä sivuston suunnitelman.
+
+readme-tiedostossa täytyy olla linkki verkossa pyörivään nettisivuun, vastaukset yhteisiin kysymyksiin sekä henk. koht. työtehtävät ja tuntimäärät.
+
+Työssä käytetään githubia, joten version.aalto jää tässä vaiheessa tauolle.
+
+Jokaisen ryhmäläisen täytyy olla github repositorion(projektin) jäsen.
+
+Jokaisella ryhmäläisellä täytyy olla merkittäviä committeja projektissa. Jos näin ei ole, täytyy committien olemattomuus perustella.
+
+Jokaisen ryhmäläisen täytyy kirjoittaa readme-tiedostoon omat tehtävät ja työtunnit. Jos näitä ei ole ilmoitettu, oletamme että opiskelija ei ole osallistunut työhön.
+
+Kertokaa readme tiedostossa, miten olette jakaneet projektipäälikköyden - saatiinko hommat ajoissa kasaan vai tuliko kiire?
+

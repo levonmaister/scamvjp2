@@ -81,64 +81,6 @@ body {
 }
 
 
-/*.quote-bubble1 {
-    display: inline-block;
-    background-color: rgb(22, 44, 145);
-    color: white;
-    font-weight: lighter;
-    font-size: 16px;
-    padding: 50px 40px;
-    border-radius: 999px;
-    max-width: 170px;
-    margin-top: 16px;
-    position: absolute;
-    left: 300px;
-    bottom: 250px;
-    font-family: Arial, sans-serif;
-    line-height: 1.5;
-    font-style: italic;
-    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
-  }
-
-
-.quote-bubble2 {
-    display: inline-block;
-    padding: 50px 40px;
-    background-color: rgb(22, 44, 145);
-    color: white;
-    font-weight: lighter;
-    font-size: 16px;
-    border-radius: 999px;
-    max-width: 120px;
-    margin-top: 16px;
-    position: absolute;
-    right: 360px;
-    bottom: 310px;
-    font-family: Arial, sans-serif;
-    line-height: 1.5;
-    font-style: italic;
-    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
-  }
-
-
-  .quote-bubble3 {
-    display: inline-block;
-    background-color: rgb(22, 44, 145);
-    color: white;
-    font-weight: lighter;
-    font-size: 16px;
-    padding: 40px 30px;
-    border-radius: 900px;
-    max-width: 200px;
-    margin-top: 16px;
-    position: absolute;
-    left: 170px;
-    bottom: 18px;
-    font-family: Arial, sans-serif;
-    line-height: 1.5;
-    font-style: italic;
-    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
-  }*/
 
 .quote-bubble1,
 .quote-bubble2,
@@ -297,8 +239,8 @@ body {
 }
 
 @media (min-width: 601px) and (max-width: 1024px) {
-
-   
+    
+    
 
     .stories-container {
         display: flex;
@@ -461,11 +403,10 @@ body {
     }
 }
 
-@media (min-width: 1501px) and (max-width: 2000){
+@media (min-width: 1501px) and (max-width: 2000px) {
 
     .storyheadline {
         font-size: 48px;
-        
       }
     .story-description {
         font-size: 30px;
@@ -478,7 +419,7 @@ body {
         position: absolute;
         background-color: rgb(22, 44, 145);
         font-family: Arial, sans-serif;
-        line-height: 1.5;
+        line-height: 1px;
         font-style: italic;
         color: white;
         font-weight: lighter;
@@ -513,7 +454,7 @@ body {
 
 }
 
-@media (min-width: 2000px) and (max-width: 4096px) {
+@media (min-width: 2000px) {
 
     .quote-bubble1 {
         bottom: 40%;
@@ -536,4 +477,40 @@ body {
         max-width: 15vw;
     }
 
+    .storyheadline {
+        font-size: 52px;
+    }
+
+
+}
+
+@media (min-width: 3000px) {
+    .quote-bubble1 {
+        bottom: 50%;
+        left: 15%;
+        padding: 1em 2em;
+        max-width: 20vw;
+        font-size: 30px;
+    }
+
+    .quote-bubble2 {
+        bottom: 50%;
+        left: 58%;
+        font-size: 30px;
+        padding: 1em 2em;
+        max-width: 20vw;
+    }
+
+    .quote-bubble3 {
+        bottom: 8%;
+        left: 20%;
+        padding: 1em 2.3em;
+        max-width: 15vw;
+        font-size: 30px;
+    }
+
+    .story-description {
+        font-size: 30px;
+        max-width: 900px;
+    }
 }
