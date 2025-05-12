@@ -51,6 +51,16 @@ Responsivitet på andra ställen. 1h.
 Figma 3h.
 Totalt: 18h
 
+Wilma:
+
+Figman aloitus ja alustava design - 4,5h
+Navbarin toteutus ja sille mobiilinavigaatio sekä navbarin css - 4h
+Pääsivun "näin tunnistat huijausviestin"-osio, eli dropdown - 5h
+Muutoksia sekä Etusivu.jsx että Peli.sx tiedostoihin ja näiden css, jotta "Pelaa peliä"-nappi vie etusivulta oikeasti peli sivulle kuten huijausviestin tunnistuspeli tekee mobiilinavigaation kautta (+lopeta nappi) - 3h
+Kirjoitusvirheiden korjaamista ja pieniä design korjauksia - 1h
+Alustava footer ja sen linkit - 1h
+Navbarin responsiivisuus - 2h
+
 
 
 
