@@ -36,14 +36,9 @@ Peli.jsx, peli.css, peliScript.js - 8h
 Etusivu.css (tausta), pelinappi, divs huijaustarnoille- 2h 
 Puhelinkäsikuva etusivulle, responsiivisuutta - 3h
 Numerot.css responsiivisuutta - 2h
-<<<<<<< HEAD
 Responsiivisuutta pelissä ja etusivulla (font-size yms) - 5h
-responsiivisuutta suurille nnäytöille tarinoille - 1h
+responsiivisuutta suurille nnäytöille tarinat ja footer - 1h
 tot ≈ 21h
-=======
-Responsiivisuutta pelissä ja etusivulla (små ändringar textstorlek etc) - 5h
-tot ≈ 20h
-
 
 
 Elvira arbete:
@@ -56,4 +51,3 @@ Responsivitet på andra ställen. 1h.
 Figma 3h.
 Totalt: 17h
 
->>>>>>> d1afae9 (readme elvira)
