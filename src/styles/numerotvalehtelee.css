@@ -22,7 +22,7 @@ body {
 
 .bubbles-container {
     display: grid;
-    grid-template-columns: 1;
+    
     justify-content: center;
     align-items: center;
     gap: 10px;
