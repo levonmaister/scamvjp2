@@ -17,7 +17,7 @@ If you are developing a production application, we recommend using TypeScript an
 
 Figma: https://www.figma.com/design/w3DVtkY8Ivewy33Pt0UR6l/VJP-VDM?node-id=0-1&t=dX0BmlmdfSkZw99h-1
 
-Nettisivu: https://scamvjp25.vercel.app/
+Nettisivu: https://scamvjp26.vercel.app/
 
 
 
