@@ -1,222 +1,199 @@
-
 .exit-button {
-    background-color: rgb(11, 31, 126);
-    height: 46px;
-    border-radius: 40px;
-    cursor: pointer;
-    padding: 8px 20px;
-    margin: 1%;
-    color: white;
-    font-size: 16px;
-    text-align: center;
-    align-self: flex-start;
-    width: 40vw;
-    font-weight: bolder;
-    transition: transform 0.2s ease, background-color 0.2s ease;
+  background-color: rgb(11, 31, 126);
+  height: 46px;
+  border-radius: 40px;
+  cursor: pointer;
+  padding: 8px 20px;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  font-weight: bolder;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  box-sizing: border-box;
+  justify-content: center;
 }
-
 .exit-button:hover {
-    background-color: rgb(22, 44, 145);
-    transform: scale(1.02);
+  background-color: rgb(22, 44, 145);
+  transform: scale(1.02);
 }
-
-
-
-.chat-container {
-    width: 90%;
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-    padding: 12px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-}
-
 .Rubrik {
-    font-size: 14px;
-    font-weight: bold;
-    margin: 0;
-    font-family: "Anton", sans-serif;
-    color: black;
+  font-family: "Anton", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  margin: 0 0 8px;
 }
-
 .infoText {
-    font-family: "Anton", sans-serif;
-    font-size: 14px;
-    width: 90%;
-    font-weight: lighter;
+  font-family: "Anton", sans-serif;
+  font-size: 14px;
+  font-weight: lighter;
+  padding: 0 16px 16px;
+  box-sizing: border-box;
+  text-align: center;
 }
-  
-.chat {
-    background-color: white;
-    width: 85vw;
-    height: 60vh;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    border: 1px solid #101010;
-    border-radius: 5px;
+.phone-container {
+  position: relative;
+  width: 260px;
+  max-width: 90vw;
+  margin: 0 auto;
 }
-
+.phone-frame {
+  width: 100%;
+  display: block;
+  position: relative;
+  pointer-events: none;
+  z-index: 20;
+}
+.screen {
+  position: absolute;
+  top: 1.5%;
+  bottom: 1.5%;
+  left: 1.5%;
+  right: 1.5%;
+  background-color: #ffffff;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  padding: 16px 0;
+  box-sizing: border-box;
+  z-index: 10;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+.chat-content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 12px;
+  padding-top: 40px;
+  padding-bottom: 140px;
+  box-sizing: border-box;
+}
 .sender {
-    margin-bottom: 6px;
-    text-align: center;
-    background-color: #e5e5ea84;
-    border-bottom: #707072;
-    padding-bottom: 2vh;
-    padding-top: 2vh;
+  width: 100%;
+  text-align: center;
+  background-color: #e5e5ea84;
+  padding: 8px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  box-sizing: border-box;
 }
-  
 .bubble.left {
-    background: #e5e5ea;
-    padding: 12px 16px;
-    border-radius: 20px;
-    max-width: 60vw;
-    margin-top: 2vh;
-    display: inline-block;
-    margin-left: 1%;
+  width: calc(100% - 24px);
+  margin: 0 auto 12px;
+  padding: 12px;
+  background: #e5e5ea;
+  border-radius: 20px;
+  font-weight: normal;
+  box-sizing: border-box;
 }
-  
-.options {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5px;
-    position: absolute;
-    bottom: 2%;
-    width: 90%;
-    margin-left: 2%;
+.feedback-wrapper {
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-.options button {
-    flex: none;
-    background-color: rgb(11, 31, 126);
-    height: 48px;
-    border-radius: 20px;
-    cursor: pointer;
-    padding: 12px 16px;
-    margin: 1%;
-    color: white;
-    font-size: 20px;
-    text-align: center;
-    width: 40%;
-    font-weight: bolder;
-    transition: transform 0.2s ease, background-color 0.2s ease;
-}
-  
-.options button:disabled {
-    opacity: 0.5;
-    cursor: not-allowed;
-}
-.options button:hover {
-    background-color: rgb(22, 44, 145);
-    transform: scale(1.02);
-      
-}
-  
 .feedback {
-    font-weight: bold;
-    font-size: 20px;
-    padding: 10px;
-    border-radius: 10px;
-    max-width: 30%;
-    text-align: center;
-    z-index: 10;
-    position: fixed
-
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 90%;
+  text-align: center;
 }
-  
-.fBack {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .feedback.correct {
-    color: #2e7d32;
-    background-color: #c8e6c9;
+  color: #2e7d32;
+  background-color: #c8e6c9;
 }
-  
 .feedback.wrong {
-    color: #c62828;
-    background-color: #ffcdd2;
+  color: #c62828;
+  background-color: #ffcdd2;
 }
-
-
+.footer-actions {
+  position: absolute;
+  bottom: 12px;
+  left: 6%;
+  width: 88%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  z-index: 10;
+  padding-bottom: 15px;
+}
+.footer-actions .options {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+.footer-actions .options button {
+  flex: 1;
+  margin: 0 4px;
+  height: 48px;
+  border-radius: 20px;
+  background-color: rgb(11, 31, 126);
+  color: white;
+  font-size: 18px;
+  font-weight: bolder;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  box-sizing: border-box;
+}
+.footer-actions .options button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.footer-actions .options button:hover {
+  background-color: rgb(22, 44, 145);
+  transform: scale(1.02);
+}
+.footer-actions .exit-button {
+  width: 100%;
+  margin: 0;
+}
+.result-container,
 .result {
-    width: 90vw;
-    margin: 50px auto;
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    height: 60vh;
-    align-items: center;
-    font-size: 28px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  box-sizing: border-box;
 }
-
-.result button {
-    width: 60vw;
-    align-self: center;
-    height: 50px;
-    border-radius: 20px;
-    border-color: white;
-    background-color: rgb(22, 44, 145);
-    color: white;
-    font-size: 20px;
-    margin-top: 15%;
-    margin-bottom: 5%;
+.result {
+  font-size: 1.1rem;
+  background: white;
 }
-
-
-
+.result .exit-button {
+  margin-top: 16px;
+  width: 100%;
+  height: 50px;
+  border-radius: 20px;
+  background-color: rgb(22, 44, 145);
+  color: white;
+  font-size: 20px;
+  font-family: inherit;
+}
 @media (min-width: 600px) {
-    .chat {
-        max-width: 70vw;
-    }
-    .Rubrik {
-        font-size: 20px;
-    }
-    .infoText {
-        max-width: 70vw;
-        font-size: 18px;
-    }
-    .bubble.left {
-        max-width: 50vw;
-    }
-    .result button {
-        height: 60px;
-        width: 250px;
-        font-size: 24px;
-    }
-    .exit-button {
-        width: 20vw;
-    }
-
-    .result {
-        width: 60vw;
-        height: 50vh;
-
-    }
-
+  .phone-container {
+    width: 290px;
+  }
+  .footer-actions .options button {
+    font-size: 20px;
+  }
+  .result .exit-button {
+    width: 90%;
+  }
 }
-
 @media (min-width: 1024px) {
-
-    .infoText {
-        font-size: 20px;
-    }
-    .bubble.left {
-        font-size: 24px;
-    }
-    .feedback {
-        font-size: 30px;
-    }
-    .result {
-        height: 60vh;
-    }
+  .phone-container {
+    width: 340px;
+  }
+  .infoText {
+    font-size: 16px;
+  }
+  .bubble.left {
+    padding: 16px;
+  }
 }
-
-
