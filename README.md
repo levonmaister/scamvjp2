@@ -51,3 +51,22 @@ Responsivitet på andra ställen. 1h.
 Figma 3h.
 Totalt: 18h
 
+
+
+Vaatimukset:
+Palautuksen tulee sisältää linkki projektin Github repoon
+
+Palautuksen tulee sisältää Figma-tiedosto, joka sisältää sekä moodboardin sekä sivuston suunnitelman.
+
+readme-tiedostossa täytyy olla linkki verkossa pyörivään nettisivuun, vastaukset yhteisiin kysymyksiin sekä henk. koht. työtehtävät ja tuntimäärät.
+
+Työssä käytetään githubia, joten version.aalto jää tässä vaiheessa tauolle.
+
+Jokaisen ryhmäläisen täytyy olla github repositorion(projektin) jäsen.
+
+Jokaisella ryhmäläisellä täytyy olla merkittäviä committeja projektissa. Jos näin ei ole, täytyy committien olemattomuus perustella.
+
+Jokaisen ryhmäläisen täytyy kirjoittaa readme-tiedostoon omat tehtävät ja työtunnit. Jos näitä ei ole ilmoitettu, oletamme että opiskelija ei ole osallistunut työhön.
+
+Kertokaa readme tiedostossa, miten olette jakaneet projektipäälikköyden - saatiinko hommat ajoissa kasaan vai tuliko kiire?
+
