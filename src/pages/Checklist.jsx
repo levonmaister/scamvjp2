@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import '../styles/Checklist.css';
+import '../styles/checklist.css';
 
 const Checklist = () => {
   const [openItem, setOpenItem] = useState(null);
