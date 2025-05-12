@@ -20,6 +20,7 @@ Figma: https://www.figma.com/design/w3DVtkY8Ivewy33Pt0UR6l/VJP-VDM?node-id=0-1&t
 Nettisivu: https://scamvjp26.vercel.app/
 
 
+Nettisivu: scamvjp26.vercel.app 
 
 Levon arbete:
 
