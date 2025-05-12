@@ -113,7 +113,7 @@ h2 {
     height: 25vh;
   }
   #tarinat {
-    scroll-margin-top: -60px;
+    scroll-margin-top: 50px;
   
   }
 }
@@ -129,11 +129,21 @@ h2 {
   .statistik-container img {
     height: 30vh;
   }
+
+  #tarinat {
+    scroll-margin-top: 50px;
+  
+  }
 }
 
 @media (min-width: 414px) {
   .text {
     font-size: 18px;
+  }
+
+  #tarinat {
+    scroll-margin-top: 50px;
+  
   }
 }
 
