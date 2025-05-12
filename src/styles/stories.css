@@ -513,7 +513,7 @@ body {
 
 }
 
-@media (min-width: 2000px) and (max-width: 4096px) {
+@media (min-width: 2000px) {
 
     .quote-bubble1 {
         bottom: 40%;
@@ -536,4 +536,40 @@ body {
         max-width: 15vw;
     }
 
+    .storyheadline {
+        font-size: 52px;
+    }
+
+
+}
+
+@media (min-width: 3000px) {
+    .quote-bubble1 {
+        bottom: 50%;
+        left: 15%;
+        padding: 1em 2em;
+        max-width: 20vw;
+        font-size: 30px;
+    }
+
+    .quote-bubble2 {
+        bottom: 50%;
+        left: 58%;
+        font-size: 30px;
+        padding: 1em 2em;
+        max-width: 20vw;
+    }
+
+    .quote-bubble3 {
+        bottom: 8%;
+        left: 20%;
+        padding: 1em 2.3em;
+        max-width: 15vw;
+        font-size: 30px;
+    }
+
+    .story-description {
+        font-size: 30px;
+        max-width: 900px;
+    }
 }
