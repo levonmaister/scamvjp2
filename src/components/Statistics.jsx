@@ -66,7 +66,7 @@ export default function FraudInfographic() {
   return (
     <div className="bg-[#F5E9E2] text-black min-h-screen py-10 px-4 md:px-8 font-sans">
 
-      {/* Responsive layout: vertical on mobile, horizontal on desktop */}
+   
       <div className="flex flex-col md:flex-row items-center justify-center gap-12 mb-10">
         {data.map((item, index) => (
           <DonutChart

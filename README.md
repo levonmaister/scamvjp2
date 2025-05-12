@@ -25,6 +25,7 @@ Numerotvalehtelee början - 2h
 Horrostories struktur startad + första storyn - 2h
 Debugging Horrostory merge problem - 1h
 Horrostory display-flex, responsivisuus + mobile 2h
+Statistik med hjälp av rechart bibliotek och tailwindd - 0.5h
 TOT ≈ 19h
 
 
