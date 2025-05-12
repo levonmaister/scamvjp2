@@ -24,7 +24,6 @@ Nettisivu: scamvjp26.vercel.app
 
 Levon arbete:
 
-
 Skapade repository samt projekt - 3h
 Lade grunden för Ilmoitus, Navbar, Etusivu, Peli och Routes: 4h
 Ilmoitus sivu och dropzone(problem med drag and drop) - 5h
@@ -47,6 +46,15 @@ Responsiivisuutta pelissä ja etusivulla (font-size yms) - 5h
 responsiivisuutta suurille nnäytöille tarinat ja footer - 1h
 tot ≈ 21h
 
+Robin arbete:
+Jobbade med figman i början av projectet med att hjälpa välja färger och allmän vibe vi vill ha på projektet. 3h
+arbetade med att göra spelet tillsammans med andra. 3h
+Tillagde artikeltexterna och skrev dem n på nätsidan samt fixade bilderna att se bra ut brevid texterna. 2h
+Fixade spelet så att det ser vackert ut. Detta innebar att fixa telefonen till bakgrunden och få allt att rymmas in "på skärmen". Överlägset största arbetet gjort för projektet. 7h
+Fixade logon till footern och allmän layout av footern. Tillagde address och logon för nätsidan. 1,5h
+Fixade navbaren så att den har logon imitten och logon för till framsidan. 30min
+Responsivitet av talbubblorna. 2h
+Totalt: 19h
 
 Elvira arbete:
 
