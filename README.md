@@ -43,11 +43,11 @@ tot ≈ 21h
 
 Elvira arbete:
 
-Navbar länkar. Gjorde så att både så att de scrollar ner från "etusivu" till rätt sektion men också att de scrollar ner till rätt sektion om man är på en annan sida än "etusivu". Till exempel kan man klicka på "tarina" från spelets sida och ändå komma rätt. 3h
+Navbar länkar. Gjorde både så att de scrollar ner från "etusivu" till rätt sektion men också så att de scrollar ner till rätt sektion om man är på en annan sida än "etusivu". Till exempel kan man klicka på "tarina" från spelets sida och ändå komma rätt. 4h
 Navbar CSS. 1h
 Små grejer i CSS, som till exempel font och fontstorlek på alla sidor. 1h
 Artikel CSS + responsivitet, pratbubblorna och positioneringen tog länge. 8h
 Responsivitet på andra ställen. 1h.
 Figma 3h.
-Totalt: 17h
+Totalt: 18h
 
