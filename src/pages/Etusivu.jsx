@@ -51,6 +51,13 @@ const Etusivu = () => {
                 
                 </div>
 
+                <div className='statistics-div'>
+                <FraudStats />
+                </div>
+
+
+                <br></br><br></br><br></br>    <br></br><br></br><br></br>    <br></br><br></br><br></br>    <br></br><br></br><br></br>
+
                 <div id="checklist-title" className="checklistlayout">
                     <h2 className="checklist-title">ÄLÄ MENE LANKAAN <br /> Näin tunnistat huijausviestin:</h2>
                     <Checklist/>
@@ -60,6 +67,7 @@ const Etusivu = () => {
                     <NumerotValehtelee />
                 </div>
 
+                
 
                 <div className="statistik-container">
                 <img src={statistik} alt="Stats" />
@@ -69,10 +77,8 @@ const Etusivu = () => {
                 <div id="tarinat" className="storieslayout">
                     <HorrorStories />
                 </div> 
-                
-                        <div className='statistics-div'>
-                <FraudStats />
-                </div>
+
+                   
 
                 <Footer />
             </div>
