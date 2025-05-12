@@ -12,7 +12,13 @@ Currently, two official plugins are available:
 If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 
 
-Figma: https://www.figma.com/design/w3DVtkY8Ivewy33Pt0UR6l/VJP-VDM?node-id=0-1&t=dX0BmlmdfSkZw99h-1 
+
+
+
+Figma: https://www.figma.com/design/w3DVtkY8Ivewy33Pt0UR6l/VJP-VDM?node-id=0-1&t=dX0BmlmdfSkZw99h-1
+
+Nettisivu: https://scamvjp25.vercel.app/
+
 
 
 Levon arbete:
@@ -49,7 +55,8 @@ Små grejer i CSS, som till exempel font och fontstorlek på alla sidor. 1h
 Artikel CSS + responsivitet, pratbubblorna och positioneringen tog länge. 8h
 Responsivitet på andra ställen. 1h.
 Figma 3h.
-Totalt: 18h
+(Skrev artiklarna som är viktigare för VDM som också tog mera arbete - 4h)
+Totalt: 17h
 
 Wilma:
 
