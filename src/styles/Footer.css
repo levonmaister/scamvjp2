@@ -47,8 +47,3 @@
     text-decoration: underline;
   }
 
-@media (max-width: 420px) {
-    .footer-links {
-      gap: 0.75rem;
-    }
-  }

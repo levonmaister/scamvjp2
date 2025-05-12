@@ -83,11 +83,12 @@
     background: none;
     border: none;
     color: inherit;
-    font: inherit;
     cursor: pointer;
     text-decoration: none;
     padding: 0.2rem 1rem;  
-    margin: 0;              
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;              
             
 }
 
@@ -182,3 +183,113 @@ a:visited {
   top: 10px;
 }
 }
+
+  
+  @media screen and (min-width: 769px) and (max-width: 1200px) {
+    .logo a {
+      font-size: 20px;
+    }
+    .link-button {
+        font-size: 20px;
+    }
+    .nav-links {
+        font-size: 20px;;
+    }
+    
+    .logo1-wrapper {
+      width: 175px;
+      height: 50px;
+    }
+    
+    .nav-wrapper {
+      padding: 1rem 2rem;
+    }
+    .nav-links {
+      font-size: 20px;
+    }
+  }
+  @media screen and (min-width: 1201px) and (max-width: 1920px){
+    .logo a {
+      font-size: 30px;
+    }
+    .link-button {
+      font-size: 27px;
+    }
+    .nav-links {
+        font-size: 27px;
+    }
+    
+    .logo1-wrapper {
+      width: 190px;
+      height: 60px;
+    }
+    
+    .nav-wrapper {
+      padding: 1.5rem;
+    }
+    
+    .align-right {
+        gap: 30px;
+    }
+    .burger {
+      width: 40px;
+      height: 32px;
+    }
+    
+    .burger span {
+      width: 35px;
+      height: 4px;
+    }
+  }
+  @media screen and (min-width: 1921px) and (max-width: 2560px) {
+    .logo  {
+      font-size: 35px;
+    }
+    .link-button {
+        font-size: 35px;
+    }
+    .nav-links {
+        font-size: 35px;
+    }
+    .align-right {
+        gap: 32px;
+    }
+    .logo1-wrapper {
+        width: 230px;
+        height: 130px;
+    }
+    .burger {
+        width: 40px;
+        height: 32px;
+    }
+    .burger span {
+        width: 50px;
+        height: 4px;
+    }
+  }
+  @media screen and (min-width: 2561px) {
+    .logo  {
+        font-size: 50px;
+      }
+    .link-button {
+        font-size: 45px;
+    }
+    .nav-links {
+        font-size: 45px;
+    }
+      .align-right {
+          gap: 80px;
+      }
+      .logo1-wrapper {
+          width: 300px;
+          height: 150px;
+      }
+      .burger {
+          width: 40px;
+          height: 32px;
+      }
+      .burger span {
+          width: 65px;
+          height: 4px;
+      } 
+  }
