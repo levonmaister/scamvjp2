@@ -13,6 +13,7 @@ import { useNavigate } from 'react-router-dom';
 import Footer from "../components/Footer.jsx";
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
+import FraudStats from '../components/Statistics.jsx';
 
 
 const Etusivu = () => {
@@ -59,13 +60,18 @@ const Etusivu = () => {
                     <NumerotValehtelee />
                 </div>
 
+
                 <div className="statistik-container">
                 <img src={statistik} alt="Stats" />
                 </div>
 
+
                 <div id="tarinat" className="storieslayout">
                     <HorrorStories />
                 </div> 
+
+                <FraudStats />
+
                 <Footer />
             </div>
             
