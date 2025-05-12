@@ -1,6 +1,5 @@
 .roboto-condensed {
     font-family: "Roboto Condensed", sans-serif;
-    font-optical-sizing: auto; /**fel enligt validator*/
     font-weight: bold;
     font-style: normal;
 }
@@ -11,18 +10,15 @@
   text-align: center;           
   box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.05);
   width: 100%;
-  min-height: 9vh;
+  height: 10vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 0.5rem;          
-  
-   
+    
 }
-.footer-content {        
-    margin: 0 auto;           
-    padding: 0.75rem 1rem;    
+
+.footer-content {          
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,7 +29,7 @@
     justify-content: space-evenly; 
     width: 100%; 
     gap: clamp(0.75rem, 6vw, 15vw);
-    margin: 1vw;
+    margin: 4vh;
   }
   
   .footer-links a {

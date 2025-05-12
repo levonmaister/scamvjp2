@@ -43,7 +43,7 @@ tot ≈ 21h
 
 Elvira arbete:
 
-Navbar länkar. Gjorde både så att de scrollar ner från "etusivu" till rätt sektion men också så att de scrollar ner till rätt sektion om man är på en annan sida än "etusivu". Till exempel kan man klicka på "tarina" från spelets sida och ändå komma rätt. 4h
+Navbar länkar. Gjorde både så att de scrollar ner från "etusivu" till rätt sektion men också så att de scrollar ner till rätt sektion om man är på en annan sida än "etusivu". Till exempel kan man klicka på "tarina" från spelets sida och ändå komma rätt. 3h
 Navbar CSS. 1h
 Små grejer i CSS, som till exempel font och fontstorlek på alla sidor. 1h
 Artikel CSS + responsivitet, pratbubblorna och positioneringen tog länge. 8h
@@ -52,30 +52,23 @@ Figma 3h.
 Totalt: 18h
 
 
-Wilma arbete:
 
-Figman aloitus ja alustava design - 4,5h
-Navbarin toteutus ja sille mobiilinavigaatio sekä navbarin css - 4h
-Pääsivun "näin tunnistat huijausviestin"-osio, eli dropdown - 5h
-Muutoksia sekä Etusivu.jsx että Peli.sx tiedostoihin ja näiden css, jotta "Pelaa peliä"-nappi vie etusivulta oikeasti peli sivulle kuten huijausviestin tunnistuspeli tekee mobiilinavigaation kautta (+lopeta nappi) - 3h
-Kirjoitusvirheiden korjaamista ja pieniä design korjauksia - 1h
-Alustava footer ja sen linkit - 1h
-Navbarin responsiivisuus - 2h
 
-Vaatimukset:
-Palautuksen tulee sisältää linkki projektin Github repoon
+Millaista työnjaon tekeminen oli? Oliko helppoa jakaa työ tehtäviin palasiin ryhmäläisten kesken?
 
-Palautuksen tulee sisältää Figma-tiedosto, joka sisältää sekä moodboardin sekä sivuston suunnitelman.
+Det var lätt att fördela arbetet då man sa exakt vad man gjorde på hela tiden, och vi hade en bra struktur med vad allt vi måste ha gjort tills deadline. Alla var medvetna om alla delar som skulle göras och hur slutprodukten skulle se ut tack vare miro och figman.
+Vissa gjorde mera på själva webbsidan och vissa gjorde mera på VDMs andra delar som att skriva artiklarna och checklistan. Ibland skedde missförstånd på grund av att vi inte alltid satt och kodade fysiskt på plats brevid varandra - då kunde ett par personer ha arbetat på samma sida. Alla tog sig an projektet motiverat, men vissa hann börja tidigare än andra. Vissa arbetade därmed mera på många mindre komponenter och till exempel CSS, medan vissa arbetade på en hel stor komponent. Till slut hade alla ändå satt ungefär lika mycket tid på projektet. 
 
-readme-tiedostossa täytyy olla linkki verkossa pyörivään nettisivuun, vastaukset yhteisiin kysymyksiin sekä henk. koht. työtehtävät ja tuntimäärät.
 
-Työssä käytetään githubia, joten version.aalto jää tässä vaiheessa tauolle.
+Mitä uutta opitte UI-suunnittelusta viestinnän keinona?
 
-Jokaisen ryhmäläisen täytyy olla github repositorion(projektin) jäsen.
+Vi lärde oss att färger, fonter och sidan stil beskriver formalitet och hur seriöst ämnet i fråga är. Med våra färger och fonter ville vi skapa en nätsida som speglar bedrägeriernas allvar med att ha mörkblå som en färg, och ganska strukturell layout, men samtidigt hålla stilen ganska informell och positiv med ljusa färger och informell font i och med att vår ena huvudkomponent är ett spel som människor ska tycka att är visuellt trevligt att öppna upp. 
 
-Jokaisella ryhmäläisellä täytyy olla merkittäviä committeja projektissa. Jos näin ei ole, täytyy committien olemattomuus perustella.
+Vi vill även få människor att fortsätta scrolla ända ner till sidan med att ha länkar som scrollar ner till nästa sektion i navigations bar:en. De viktigaste länkarna "ilmoita huijaus" är synligt hela tiden i den globala navbaren och navbarens konstanta synlighet är även viktigt för användaren för att den ska kunna navigera vidare till vilken sektion som helst på framsidan trots att användaren t.ex spelar spelet som ligger på en anna sida än framsidan.
 
-Jokaisen ryhmäläisen täytyy kirjoittaa readme-tiedostoon omat tehtävät ja työtunnit. Jos näitä ei ole ilmoitettu, oletamme että opiskelija ei ole osallistunut työhön.
+Interaktivitetens vikt är även anmärkningsvärd. Från en användares synvinkel ville vi på framsidan förutom det interaktiva spelet - ha några interaktiva komponenter som till exempel checklistan för att få användaren att stanna upp. Den rörliga statistik rutan är även trevligt iögonfallande som får läsaren att stanna upp. 
 
-Kertokaa readme tiedostossa, miten olette jakaneet projektipäälikköyden - saatiinko hommat ajoissa kasaan vai tuliko kiire?
 
+Jos hyödynsitte tehtävän teossa tekoälyä, millä tavalla?
+
+Vi fråga ofta AI om hjälp när något inte fungerade som det skulle, och bad den ge alternativa lösningar. Vi kopierade inte kod direkt från AI. 
