@@ -112,6 +112,10 @@ h2 {
   .statistik-container img {
     height: 25vh;
   }
+  #tarinat {
+    scroll-margin-top: -60px;
+  
+  }
 }
 
 @media (min-width: 375px) {
