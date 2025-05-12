@@ -10,3 +10,20 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+
+
+Levon arbete:
+
+
+Skapade repository samt projekt - 3h
+Lade grunden för Ilmoitus, Navbar, Etusivu, Peli och Routes: 4h
+Ilmoitus sivu och dropzone(problem med drag and drop) - 5h
+Numerotvalehtelee början - 2h
+Horrostories struktur startad + första storyn - 2h
+Debugging Horrostory merge problem - 1h
+Horrostory display-flex, responsivisuus + mobile 2h
+TOT ≈ 19h
+
+
