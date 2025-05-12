@@ -1,6 +1,5 @@
 .roboto-condensed {
     font-family: "Roboto Condensed", sans-serif;
-    font-optical-sizing: auto;
     font-weight: bold;
     font-style: normal;
 }
@@ -59,11 +58,13 @@
     height: auto;
     object-fit: contain;
     display: block;
+    margin-right: 1rem;
 }
 .align-right {
     display: flex;
     align-items: center;
     gap: 0.5rem;
+    margin-right: 1rem;
 }
 
   
@@ -129,7 +130,7 @@ a:visited {
 
 .nav-buttons {
   margin-right: 1.5rem;
-  transition: color 0.3 ease, transform 0.3s ease;
+  
   cursor: pointer;
 }
 
