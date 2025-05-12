@@ -75,10 +75,7 @@ const Etusivu = () => {
 
                 
 
-                <div className="statistik-container">
-                <img src={statistik} alt="Stats" />
-                </div>
-
+             
 
                 <div id="tarinat" className="storieslayout">
                     <HorrorStories />
