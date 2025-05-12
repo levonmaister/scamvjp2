@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import { Link, useNavigate, useLocation } from 'react-router-dom'
 import "../styles/Navbar.css"
+import logo1 from '../pictures/LOGO.svg';
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -48,12 +49,21 @@ const Navbar = () => {
           <div className="logo">
             <Link to="/ilmoitus" onClick={closeMenu}>Ilmoita huijaus tästä</Link>
           </div>
-  
-          <div className={burgerIconClass} onClick={toggleMenu}>
-            <span></span>
-            <span></span>
-            <span></span>
+
+          <div className="align-right">
+            <div className="logo1-wrapper">
+              <img src={logo1} alt="logo" className="logo1-img" />
+            </div>
+
+            <div className={burgerIconClass} onClick={toggleMenu}>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
           </div>
+          
+  
+          
   
           <div className={navLinksClass}>
                 <button onClick={scrollToTop} className="link-button">Etusivu</button>
