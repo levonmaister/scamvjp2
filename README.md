@@ -27,3 +27,12 @@ Horrostory display-flex, responsivisuus + mobile 2h
 TOT ≈ 19h
 
 
+Emelie arbete:
+
+Små språkändringar, navbar till en global komponent.
+Peli.jsx, peli.css, peliScript.js - 8h
+Etusivu.css (bakgrunden), pelinappi, divs till huijausstories- 2h 
+Puhelinkäsikuva etusivulle, responsiivisuutta - 3h
+Numerot.css responsiivisuutta - 2h
+Responsiivisuutta pelissä ja etusivulla (små ändringar textstorlek etc) - 5h
+tot ≈ 20h
