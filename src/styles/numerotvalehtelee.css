@@ -93,4 +93,18 @@ body {
         
     }
 
+    .main-title {
+        font-size: 70px;
+    }
+
+    .bubble {
+        font-size: 40px;
+
+    }
+
+    .quote {
+        font-size: 40px;
+        max-width: 900px;
+    }
+
 }

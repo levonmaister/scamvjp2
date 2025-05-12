@@ -240,6 +240,10 @@ h2 {
   .statistik-container img {
     height: 80vh;
   }
+
+  .checklist-title {
+    font-size: 70px;
+  }
 }
 
 
