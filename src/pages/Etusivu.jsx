@@ -14,6 +14,7 @@ import Footer from "../components/Footer.jsx";
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import FraudStats from '../components/Statistics.jsx';
+import FraudInfographic from '../components/Statistics.jsx';
 
 
 const Etusivu = () => {
@@ -50,6 +51,11 @@ const Etusivu = () => {
                     </div>
                 
                 </div>
+
+
+                <h1 className="text-2xl md:text-4xl font-bold text-center mb-10 leading-snug tracking-wide">
+        SUOMALASILTA HUIJATAAN YLI<br />60 MILJOONAA EUROA VUODESSA
+      </h1>
 
                 <div className='statistics-div'>
                 <FraudStats />
