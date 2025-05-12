@@ -403,11 +403,10 @@ body {
     }
 }
 
-@media (min-width: 1501px) and (max-width: 2000) {
+@media (min-width: 1501px) and (max-width: 2000px) {
 
     .storyheadline {
         font-size: 48px;
-        
       }
     .story-description {
         font-size: 30px;
@@ -420,7 +419,7 @@ body {
         position: absolute;
         background-color: rgb(22, 44, 145);
         font-family: Arial, sans-serif;
-        line-height: 1.5;
+        line-height: 1px;
         font-style: italic;
         color: white;
         font-weight: lighter;
