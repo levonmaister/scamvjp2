@@ -123,18 +123,3 @@ body {
 
 }
 
-@media (min-width: 3000px) {
-    .bubbles-container {
-        grid-template-columns: 4;
-        margin-top: 5vh;
-        width: 70vw;
-        margin-left: 30vw;
-        margin-right: 30vw;
-        padding: 0 20px;
-        
-    }
-    .bubble {
-        width: 30vw;
-        gap: 2vw;
-    }
-}
