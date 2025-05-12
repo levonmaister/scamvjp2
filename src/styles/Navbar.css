@@ -105,10 +105,6 @@ a:visited {
   text-decoration: none;
 }
 
-@media screen and (max-width: 4096px) {
-    .burger {
-        display: flex;
-}
 
 .nav-links {
     position: absolute;
@@ -183,7 +179,22 @@ a:visited {
   transform: rotate(-45deg);
   top: 10px;
 }
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .logo a {
+        font-size: 12px;
+    }
+    .link-button {
+        font-size: 13px;
+    }
+    .nav-links {
+        font-size: 13px;
+    }
+    .logo1-wrapper {
+        width: 100px;
+        height: 30px;
+    }
 }
+
 
   
   @media screen and (min-width: 769px) and (max-width: 1200px) {
